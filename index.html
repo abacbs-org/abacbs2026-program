@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ABACBS 2026 Program</title>
+<meta name="description" content="Interactive program and personal schedule builder for the ABACBS 2026 conference, RMIT Melbourne, 16–20 November 2026.">
+<meta name="theme-color" content="#111418">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="ABACBS 2026">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to program</a>
+
+<header class="app-header">
+  <div class="bar">
+    <div class="brand">
+      <img class="mark" src="icons/icon-192.png" width="28" height="28" alt="" aria-hidden="true">
+      <span class="brand-text">
+        <strong>ABACBS 2026</strong>
+        <small>RMIT Melbourne · 16–20 Nov</small>
+      </span>
+    </div>
+    <div class="bar-actions">
+      <button id="themeBtn" class="icon-btn" type="button" aria-label="Switch colour theme" title="Switch theme">◐</button>
+      <button id="searchBtn" class="icon-btn" type="button" aria-label="Search the program" aria-expanded="false" title="Search">⌕</button>
+    </div>
+  </div>
+
+  <div id="searchWrap" class="search-wrap" hidden>
+    <input id="search" type="search" placeholder="Search talks, posters, people, rooms…" autocomplete="off" aria-label="Search the program">
+    <button id="searchClear" class="text-btn" type="button">Clear</button>
+  </div>
+
+  <nav class="tabs" aria-label="Views">
+    <button class="tab is-active" data-view="program" type="button">Program</button>
+    <button class="tab" data-view="mine" type="button">My program <span class="count" id="mineCount">0</span></button>
+    <button class="tab" data-view="posters" type="button">Posters</button>
+    <button class="tab" data-view="info" type="button">Info</button>
+  </nav>
+
+  <nav id="dayBar" class="days" aria-label="Conference days"></nav>
+
+  <div id="filterBar" class="filters" aria-label="Filter by stream"></div>
+</header>
+
+<main id="main" tabindex="-1">
+  <div id="banner" class="banner" hidden></div>
+  <div id="view"></div>
+</main>
+
+<footer class="app-footer">
+  <p>Provisional program — subject to change. Built from the official ABACBS 2026 program.
+  Check <a href="https://www.abacbs.org/2026" rel="noopener">abacbs.org/2026</a> for the latest.</p>
+</footer>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

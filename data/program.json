@@ -1,0 +1,2598 @@
+{
+ "meta": {
+  "name": "ABACBS 2026",
+  "tagline": "A Festival of Bioinformatics",
+  "dates": "16–20 November 2026",
+  "venue": "Storey Hall (Building 16), RMIT University City Campus",
+  "address": "124 La Trobe St, Melbourne VIC 3000",
+  "hashtag": "#ABACBS2026",
+  "timezone": "Australia/Melbourne",
+  "email": "conference@abacbs.org",
+  "site": "https://www.abacbs.org/2026",
+  "updated": "2026-11-10",
+  "note": "Provisional program — subject to change. Built from the official ABACBS 2026 combined program (PDF) and the program spreadsheet dated 17 Oct 2026.",
+  "days": [
+   {
+    "date": "2026-11-16",
+    "label": "Mon 16",
+    "long": "Monday 16 November",
+    "sub": "Satellites"
+   },
+   {
+    "date": "2026-11-17",
+    "label": "Tue 17",
+    "long": "Tuesday 17 November",
+    "sub": "Day 1"
+   },
+   {
+    "date": "2026-11-18",
+    "label": "Wed 18",
+    "long": "Wednesday 18 November",
+    "sub": "Day 2"
+   },
+   {
+    "date": "2026-11-19",
+    "label": "Thu 19",
+    "long": "Thursday 19 November",
+    "sub": "Day 3"
+   },
+   {
+    "date": "2026-11-20",
+    "label": "Fri 20",
+    "long": "Friday 20 November",
+    "sub": "Workshops"
+   }
+  ],
+  "info": {
+   "getting_here": "Trains: Melbourne Central or State Library stations. Trams: Swanston St stop 7/8, La Trobe St stop 6 (Free Tram Zone). No conference parking — public transport recommended.",
+   "registration_desk": "Level 2, immediately upon entering the building. ABACBS volunteers welcome you at the Swanston Street entrance.",
+   "posters": "Back of Storey Hall Auditorium (L5) and the Green Brain Room (L7). Odd numbers at morning tea, even numbers at afternoon tea (Tue & Wed). A0 portrait.",
+   "social": "Official hashtag #ABACBS2026. Primary platform is BlueSky (@abacbs.bsky.social); there is also the ABACBS Slack.",
+   "access": "Venue is wheelchair accessible with lifts. Smoking and vaping are not permitted anywhere on RMIT campus. Accessibility or carer needs: conference@abacbs.org.",
+   "code_of_conduct": "https://www.abacbs.org/code-of-conduct-26"
+  }
+ },
+ "events": [
+  {
+   "id": "mon-sbei",
+   "day": "2026-11-16",
+   "start": "08:50",
+   "end": "17:30",
+   "type": "satellite",
+   "title": "SBEI 2026 — Symposium on Bioinformatics and Engineered Intelligence",
+   "stream": "Satellite",
+   "room": "Lecture Theatre, Level 1, Building 16 (336–348 Swanston St)",
+   "desc": "Run by the ABACBS professional subcommittee, focused on GenAI across AgTech, Biotech and HealthTech. Registration from 8:15am, opening address 8:50am, close 5:30pm. Keynotes: Prof. Daniel MacArthur (Garvan / MCRI) and Prof. Michael Stumpf (University of Melbourne / Cell Bauhaus). Sessions: Population-Scale Bioinformatics (Lyn Griffiths, Jimmy Breen, Adam Heterick, Jeff Christiansen); Clinical Genomics in Practice (Simon Sadedin, Lynn Fink, Eva Chan, Claire Lillee); Applied & Environmental Bioinformatics (Mathew Lewsey, Clare Sloggett, Monica Nolan, Matthew Andrews); Bioinformatics Engineering (Allan Leung, James Bradley, Gregg Bass, Anna Quaglieri).",
+   "link": "https://www.abacbs.org/sbei-2026"
+  },
+  {
+   "id": "mon-combine",
+   "day": "2026-11-16",
+   "start": "09:00",
+   "end": "17:00",
+   "type": "satellite",
+   "title": "COMBINE Symposium 2026",
+   "stream": "Satellite",
+   "room": "RMIT City Campus",
+   "desc": "Annual symposium of COMBINE, the Australian computational biology and bioinformatics student society. Student research talks, workshops and networking.",
+   "link": "https://www.combine.org.au/symp/symposium-2026/"
+  },
+  {
+   "id": "mon-emcr",
+   "day": "2026-11-16",
+   "start": "09:00",
+   "end": "17:00",
+   "type": "satellite",
+   "title": "ABACBS EMCR Funding Futures",
+   "stream": "Satellite",
+   "room": "RMIT City Campus",
+   "desc": "EMCR Funding Futures event. Three $500 travel scholarships are available for postdocs — apply via the EMCR-2026 page.",
+   "link": "https://www.abacbs.org/abacbs-emcr-funding-futures"
+  },
+  {
+   "id": "mon-welcome",
+   "day": "2026-11-16",
+   "start": "18:30",
+   "end": "20:30",
+   "type": "social",
+   "title": "Welcome Reception",
+   "stream": "Social",
+   "room": "Storey Hall",
+   "desc": "ABACBS 2026 welcome drinks."
+  },
+  {
+   "id": "tue-wtc",
+   "day": "2026-11-17",
+   "start": "09:00",
+   "end": "09:20",
+   "type": "plenary",
+   "title": "Welcome to Country & conference opening",
+   "stream": "Plenary",
+   "room": "Storey Hall Auditorium (L5)"
+  },
+  {
+   "id": "tue-kn1",
+   "day": "2026-11-17",
+   "start": "09:20",
+   "end": "10:00",
+   "type": "keynote",
+   "title": "AI-driven transcriptome harmonisation, completion and integration with structural biology",
+   "speaker": "Prof. Shandar Ahmad",
+   "affiliation": "Jawaharlal Nehru University, New Delhi",
+   "stream": "Keynote",
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Sonika Tyagi",
+   "badge": "International keynote"
+  },
+  {
+   "id": "tue-lightning",
+   "day": "2026-11-17",
+   "start": "10:00",
+   "end": "10:30",
+   "type": "lightning",
+   "title": "Lightning talks",
+   "stream": "Lightning",
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Katherine Huang & Emily Choi",
+   "desc": "Twelve rapid-fire talks in presenting order. Vote for your favourite in the People’s Choice award and catch the speakers at their posters.",
+   "items": [
+    {
+     "order": 1,
+     "speaker": "Kavindu Jayasooriya",
+     "title": "A new compression strategy to reduce the size of nanopore sequencing data"
+    },
+    {
+     "order": 2,
+     "speaker": "Jialin Ding",
+     "title": "Building a 4D Spatial and Temporal Zebrafish Embryo"
+    },
+    {
+     "order": 3,
+     "speaker": "Leo Featherstone",
+     "title": "Automating genomic epidemiology for HIV in NSW, Australia with cryptographic de-identification"
+    },
+    {
+     "order": 4,
+     "speaker": "Calandra Grima",
+     "title": "Lost in the soup: exploring and overcoming ambient RNA contamination in scRNA-seq"
+    },
+    {
+     "order": 5,
+     "speaker": "Sirui Weng",
+     "title": "Recurrent intra-tumour heterogeneity is a hallmark of metastatic prostate cancer"
+    },
+    {
+     "order": 6,
+     "speaker": "Benjamin Goudey",
+     "title": "How is AI impacting Australian bioinformatics: findings from national consultation"
+    },
+    {
+     "order": 7,
+     "speaker": "Julia R. Broadbent",
+     "title": "A standardised functional genomics workflow for rare disease diagnostic proteomics"
+    },
+    {
+     "order": 8,
+     "speaker": "Afeefa Zainab",
+     "title": "A Higher-Order Spatial Graph Model Inferring Directional Cell-Type Influence for Spatial Transcriptomics"
+    },
+    {
+     "order": 9,
+     "speaker": "Patrick Crock",
+     "title": "Segmentation-free identification of tissue domains in image-based spatial transcriptomics."
+    },
+    {
+     "order": 10,
+     "speaker": "Joseph Holmes",
+     "title": "A Computational Framework for Integrating Alternative Sequencing Platforms with Biobank Genomic Data"
+    },
+    {
+     "order": 11,
+     "speaker": "Michael Harper",
+     "title": "Building a more representative Australian population genomic resource"
+    },
+    {
+     "order": 12,
+     "speaker": "Yingyi Mei",
+     "title": "Plasma proteomics enhances genetic risk prediction and biological understanding of venous thromboembolism"
+    }
+   ]
+  },
+  {
+   "id": "tue-mt",
+   "day": "2026-11-17",
+   "start": "10:30",
+   "end": "11:15",
+   "type": "break",
+   "title": "Morning tea, exhibitors & posters (odd numbers)",
+   "stream": "Break",
+   "room": "Back of Storey Hall Auditorium (L5) & Green Brain Room (L7)"
+  },
+  {
+   "id": "tue-transcriptomics",
+   "day": "2026-11-17",
+   "start": "11:15",
+   "end": "12:45",
+   "type": "parallel",
+   "title": "Transcriptomics",
+   "stream": "Transcriptomics",
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Jovana Maksimovic & Yashpal Ramakrishnaiah",
+   "talks": [
+    {
+     "id": "tue-transcriptomics-1",
+     "start": "11:15",
+     "title": "Assumptions under the microscope: interrogating differential expression methods for imaging-based spatial transcriptomics",
+     "speaker": "Dr Raiha Browning",
+     "affiliation": "WEHI"
+    },
+    {
+     "id": "tue-transcriptomics-2",
+     "start": "11:35",
+     "title": "Learning collective multicellular dynamics from time-resolved single-cell and spatial multi-omic data",
+     "speaker": "Dr Lin Wan",
+     "affiliation": "Chinese Academy of Sciences"
+    },
+    {
+     "id": "tue-transcriptomics-3",
+     "start": "11:45",
+     "title": "Single-Cell Spatially-Resolved Human Whole Transcriptome Analysis of NSCLC Associates Spatial Features with Response",
+     "speaker": "Dr Chin Wee Tan",
+     "affiliation": "WEHI"
+    },
+    {
+     "id": "tue-transcriptomics-4",
+     "start": "11:55",
+     "title": "Order Matters: Ambient RNA correction confounds doublet detection in single-cell RNA sequencing",
+     "speaker": "Michelle Meier",
+     "affiliation": "Peter MacCallum Cancer Centre"
+    },
+    {
+     "id": "tue-transcriptomics-5",
+     "start": "12:05",
+     "title": "A systematic evaluation of normalization impact on cell-cell interaction inference in imaging-based spatial transcriptomics",
+     "speaker": "Yining Pan",
+     "affiliation": "WEHI"
+    },
+    {
+     "id": "tue-transcriptomics-6",
+     "start": "12:15",
+     "title": "SG-NEx V2: A single-cell and spatial long-read RNA-Seq resource for isoform-resolve transcriptome profiling",
+     "speaker": "Dr Ying Chen",
+     "affiliation": "A*STAR"
+    },
+    {
+     "id": "tue-transcriptomics-7",
+     "start": "12:25",
+     "title": "Spatial omics in clinical risk prediction: a scoping review of artificial intelligence, machine learning, and statistical modelling approaches and their methodological challenges",
+     "speaker": "Nimra Qaisar",
+     "affiliation": "University of Melbourne"
+    },
+    {
+     "id": "tue-transcriptomics-8",
+     "start": "12:35",
+     "title": "blisa: Inferring Cell–Cell Communication in Spatial Transcriptomics",
+     "speaker": "Lei Qin",
+     "affiliation": "WEHI"
+    }
+   ]
+  },
+  {
+   "id": "tue-microbes",
+   "day": "2026-11-17",
+   "start": "11:15",
+   "end": "12:45",
+   "type": "parallel",
+   "title": "Microbes & Microbiome",
+   "stream": "Microbes & Microbiome",
+   "room": "Lecture Theatre 1 (L1)",
+   "chairs": "Simone Li & Manoharan Kumar",
+   "talks": [
+    {
+     "id": "tue-microbes-1",
+     "start": "11:15",
+     "title": "Beyond Linear Genomes: Graph-Aware Clustering of Bacteriophages Across Metagenomes",
+     "speaker": "Dr Vijini Mallawaarachchi",
+     "affiliation": "Flinders University"
+    },
+    {
+     "id": "tue-microbes-2",
+     "start": "11:35",
+     "title": "EGMoE: Environment-Guided Graphical Mixture of Experts for interpretable inference of heterogeneous microbial networks",
+     "speaker": "Dr Xiangnan Xu",
+     "affiliation": "University of Sydney"
+    },
+    {
+     "id": "tue-microbes-3",
+     "start": "11:45",
+     "title": "Prophages harbor a diverse repertoire of mobile defence systems that shape the antiviral landscape of clinical Staphylococcus aureus",
+     "speaker": "Lejla Kartal",
+     "affiliation": "University of Melbourne"
+    },
+    {
+     "id": "tue-microbes-4",
+     "start": "11:55",
+     "title": "Distinct Subtypes of Oral Colonisation and Association with Gut inflammation",
+     "speaker": "Cong Pham",
+     "affiliation": "Flinders University"
+    },
+    {
+     "id": "tue-microbes-5",
+     "start": "12:05",
+     "title": "Rational microbiome engineering enables the development of live bacterial therapeutics targeting carbapenem-resistant Klebsiella pneumoniae",
+     "speaker": "Dr Calum Walsh",
+     "affiliation": "University of Melbourne"
+    },
+    {
+     "id": "tue-microbes-6",
+     "start": "12:15",
+     "title": "Modification-aware screening of AI-generated peptides identifies potent antimicrobials with defined terminal chemistry",
+     "speaker": "Dr Jing Xu",
+     "affiliation": "SAiGENCI"
+    },
+    {
+     "id": "tue-microbes-7",
+     "start": "12:25",
+     "title": "From research pipeline to validated workflow: applying GAMP 5 principles to bacteriophage bioinformatics",
+     "speaker": "Phoebe Carr",
+     "affiliation": "The Kids Research Institute Australia"
+    },
+    {
+     "id": "tue-microbes-8",
+     "start": "12:35",
+     "title": "Syrup: Pandemic-scale phylogenetic inference in the browser",
+     "speaker": "Dr Wytamma Wirth",
+     "affiliation": "University of Melbourne"
+    }
+   ]
+  },
+  {
+   "id": "tue-lunch",
+   "day": "2026-11-17",
+   "start": "12:45",
+   "end": "14:00",
+   "type": "break",
+   "title": "Lunch & exhibitors",
+   "stream": "Break",
+   "room": "Storey Hall"
+  },
+  {
+   "id": "tue-multiomics",
+   "day": "2026-11-17",
+   "start": "14:00",
+   "end": "15:30",
+   "type": "parallel",
+   "title": "Multiomics & Systems Biology",
+   "stream": "Multiomics & Systems Biology",
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Alan Rubin & Giulia Iacono",
+   "talks": [
+    {
+     "id": "tue-multiomics-1",
+     "start": "14:00",
+     "title": "Diffusion-based Representation Integration for Foundation Models Improves Spatial Transcriptomics Analysis",
+     "speaker": "A/Prof. Ritambhara Singh",
+     "affiliation": "Brown University"
+    },
+    {
+     "id": "tue-multiomics-2",
+     "start": "14:20",
+     "title": "Integrating 3+ omics: what's shared, partially shared and unshared?",
+     "speaker": "Dr Jiadong Mao",
+     "affiliation": "University of Melbourne"
+    },
+    {
+     "id": "tue-multiomics-3",
+     "start": "14:30",
+     "title": "Multi-resolution consensus clustering resolves latent subtypes in complex biological data",
+     "speaker": "Chenxin Bao",
+     "affiliation": "University of Queensland"
+    },
+    {
+     "id": "tue-multiomics-4",
+     "start": "14:40",
+     "title": "Causal Machine Learning for Predictive Biomarker Discovery and Subgroup Refinement in Metastatic Colorectal Cancer",
+     "speaker": "Alina Jana Arneth",
+     "affiliation": "University of Melbourne"
+    },
+    {
+     "id": "tue-multiomics-5",
+     "start": "14:50",
+     "title": "Augmenting the Childhood Cancer Cell Map through Multi-Omic Data Synthesis and Predictive Modelling",
+     "speaker": "Dr Zhaoxiang Cai",
+     "affiliation": "University of Sydney"
+    },
+    {
+     "id": "tue-multiomics-6",
+     "start": "15:00",
+     "title": "RAIN: AI-based software for pathway activity prediction and analysis",
+     "speaker": "Kirill Orlov",
+     "affiliation": "Queensland University of Technology"
+    },
+    {
+     "id": "tue-multiomics-7",
+     "start": "15:10",
+     "title": "An integrated atlas of RNA to protein concordance across human tissues and cell types",
+     "speaker": "Artur Shvetcov",
+     "affiliation": "Westmead Institute for Medical Research"
+    },
+    {
+     "id": "tue-multiomics-8",
+     "start": "15:20",
+     "title": "Highway to Health: Powering Multi-Omics Cardiovascular Research with the Australian Cardiovascular Disease Data Commons (ACDC)",
+     "speaker": "Dr Bernie Pope",
+     "affiliation": "Australian BioCommons"
+    }
+   ]
+  },
+  {
+   "id": "tue-methods",
+   "day": "2026-11-17",
+   "start": "14:00",
+   "end": "15:30",
+   "type": "parallel",
+   "title": "Methods & Infrastructure",
+   "stream": "Methods & Infrastructure",
+   "room": "Lecture Theatre 1 (L1)",
+   "chairs": "Alice Johnstone & Rafael Peres da Silva",
+   "talks": [
+    {
+     "id": "tue-methods-1",
+     "start": "14:00",
+     "title": "Pathogen Data Network — Resources for Research and Learning",
+     "speaker": "Dr Jason Williams",
+     "affiliation": "Cold Spring Harbor Laboratory"
+    },
+    {
+     "id": "tue-methods-2",
+     "start": "14:20",
+     "title": "WaveFactor enables factor inference for spatial transcriptomics with multi-scale spatial awareness and prior information integration",
+     "speaker": "Yulin Wu",
+     "affiliation": "University of Melbourne"
+    },
+    {
+     "id": "tue-methods-3",
+     "start": "14:30",
+     "title": "Pre-ranked GSEA is hugely anticonservative but can be fixed",
+     "speaker": "Dr Waruni Abeysekera",
+     "affiliation": "WEHI"
+    },
+    {
+     "id": "tue-methods-4",
+     "start": "14:40",
+     "title": "The CaRDinal platform, enabling genomic analysis at scale for Australia's rare disease research community",
+     "speaker": "Edward Formaini",
+     "affiliation": "Centre for Population Genomics"
+    },
+    {
+     "id": "tue-methods-5",
+     "start": "14:50",
+     "title": "SVscanner: Repeat-Content Classification of Structural Variants in Long-Read Data, Validated with Mechanism-Aware Simulation",
+     "speaker": "Dr Hiruna Samarakoon",
+     "affiliation": "Garvan Institute of Medical Research"
+    },
+    {
+     "id": "tue-methods-6",
+     "start": "15:00",
+     "title": "bgnorm: A generative statistical framework for background correction, normalisation, and quality control in multiplex spatial proteomics",
+     "speaker": "Malvika Kharbanda",
+     "affiliation": "SAiGENCI"
+    },
+    {
+     "id": "tue-methods-7",
+     "start": "15:10",
+     "title": "SVEnsemble2: When Training and Predicting on the Same Sample Works and Improves Your SV Calls",
+     "speaker": "Vladimir Shikov",
+     "affiliation": "WEHI"
+    },
+    {
+     "id": "tue-methods-8",
+     "start": "15:20",
+     "title": "The cost of confidence: finding the right tests for bioinformatics workflows",
+     "speaker": "Dr Magdalena Antczak",
+     "affiliation": "Queensland University of Technology"
+    }
+   ]
+  },
+  {
+   "id": "tue-at",
+   "day": "2026-11-17",
+   "start": "15:30",
+   "end": "16:15",
+   "type": "break",
+   "title": "Afternoon tea, exhibitors & posters (even numbers)",
+   "stream": "Break",
+   "room": "Back of Storey Hall Auditorium (L5) & Green Brain Room (L7)"
+  },
+  {
+   "id": "tue-kn2",
+   "day": "2026-11-17",
+   "start": "16:15",
+   "end": "16:55",
+   "type": "keynote",
+   "title": "A genomics approach uncovers the drivers of preterm labour in human pregnancy",
+   "speaker": "Prof. Jennifer Mitchell",
+   "affiliation": "University of Toronto",
+   "stream": "Keynote",
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Gerry Tonkin-Hill",
+   "badge": "International keynote"
+  },
+  {
+   "id": "tue-kn3",
+   "day": "2026-11-17",
+   "start": "16:55",
+   "end": "17:25",
+   "type": "keynote",
+   "title": "25 years of microbial bioinformatics in Australia",
+   "speaker": "Prof. Torsten Seemann",
+   "affiliation": "University of Melbourne",
+   "stream": "Keynote",
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Gerry Tonkin-Hill",
+   "badge": "National keynote"
+  },
+  {
+   "id": "tue-close",
+   "day": "2026-11-17",
+   "start": "17:25",
+   "end": "17:30",
+   "type": "plenary",
+   "title": "Day 1 close",
+   "stream": "Plenary",
+   "room": "Storey Hall Auditorium (L5)"
+  },
+  {
+   "id": "tue-combine-social",
+   "day": "2026-11-17",
+   "start": "18:00",
+   "end": "21:00",
+   "type": "social",
+   "title": "COMBINE networking event",
+   "stream": "Social",
+   "room": "Ida Bar"
+  },
+  {
+   "id": "wed-open",
+   "day": "2026-11-18",
+   "start": "09:00",
+   "end": "09:10",
+   "type": "plenary",
+   "title": "Conference opening",
+   "stream": "Plenary",
+   "room": "Storey Hall Auditorium (L5)"
+  },
+  {
+   "id": "wed-kn1",
+   "day": "2026-11-18",
+   "start": "09:10",
+   "end": "09:50",
+   "type": "keynote",
+   "title": "Decoding sequence mixtures: scalable inference for biodiversity and pathogens",
+   "speaker": "Asst. Prof. Lenore Pipes",
+   "affiliation": "University of Hawaiʻi",
+   "stream": "Keynote",
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Jimmy Breen",
+   "badge": "International keynote"
+  },
+  {
+   "id": "wed-lightning",
+   "day": "2026-11-18",
+   "start": "09:50",
+   "end": "10:20",
+   "type": "lightning",
+   "title": "Lightning talks",
+   "stream": "Lightning",
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Katherine Huang & Emily Choi",
+   "desc": "Twelve rapid-fire talks in presenting order. Vote for your favourite in the People’s Choice award and catch the speakers at their posters.",
+   "items": [
+    {
+     "order": 1,
+     "speaker": "Rhys Gillman",
+     "title": "SCARCE: Single Cell Analysis of Rare Clonal Events. Identifying somatic mutations in single cell data"
+    },
+    {
+     "order": 2,
+     "speaker": "Preety Nehra",
+     "title": "BSJ_Finder: A Reproducible Snakemake Pipeline for Novel CircRNAs detection via Back splice Junction Analysis of RNA- Seq"
+    },
+    {
+     "order": 3,
+     "speaker": "Jacob Bradford",
+     "title": "Scalable CRISPR-Cas9 Off-Target Analysis Using Hardware Acceleration and Data Compression"
+    },
+    {
+     "order": 4,
+     "speaker": "Yangyi Zhang",
+     "title": "Microscopy-based phenotypic analysis of inducers of nucleolar stress and single-cell level heterogeneity under single perturbation"
+    },
+    {
+     "order": 5,
+     "speaker": "Ignatius Menzies",
+     "title": "Respecting dynamic consent when sharing data: programmatically connecting data access committees, researchers and participants."
+    },
+    {
+     "order": 6,
+     "speaker": "Naima Vahab",
+     "title": "LUNA FM : A subword foundation model for long non-coding RNAs for functional inference"
+    },
+    {
+     "order": 7,
+     "speaker": "David Hirst",
+     "title": "MINT Block: an integrative approach for identifying multi-omics signatures across independent studies"
+    },
+    {
+     "order": 8,
+     "speaker": "Lawrence Huang",
+     "title": "scDeepID enables single-cell genetics analysis with robust cell state identification"
+    },
+    {
+     "order": 9,
+     "speaker": "Yang Xu",
+     "title": "Systematic benchmarking of spatial transcriptomics analysis workflows using SpaBench"
+    },
+    {
+     "order": 10,
+     "speaker": "Sehrish Kanwal",
+     "title": "From Genomics to Immune Evasion: Mapping Immune Heterogeneity in Early Breast Cancer"
+    },
+    {
+     "order": 11,
+     "speaker": "Samitha Amarapathy",
+     "title": "DeepPBC - An Interpretable Multi-Omics Deep Learning Framework for Gene Dependency Modelling in Paediatric Brain Cancer"
+    },
+    {
+     "order": 12,
+     "speaker": "Layla Wang",
+     "title": "Benchmarking AVITI Teton CytoProfiling with Cell Paint: Comparative Multiomics analysis using three segmentation models and treated immune cell samples"
+    }
+   ]
+  },
+  {
+   "id": "wed-mt",
+   "day": "2026-11-18",
+   "start": "10:20",
+   "end": "11:05",
+   "type": "break",
+   "title": "Morning tea, exhibitors & posters (odd numbers)",
+   "stream": "Break",
+   "room": "Back of Storey Hall Auditorium (L5) & Green Brain Room (L7)"
+  },
+  {
+   "id": "wed-genomic-medicine",
+   "day": "2026-11-18",
+   "start": "11:05",
+   "end": "12:35",
+   "type": "parallel",
+   "title": "Genomic Medicine",
+   "stream": "Genomic Medicine",
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Roxane Legaie & Calum Walsh",
+   "talks": [
+    {
+     "id": "wed-genomic-medicine-1",
+     "start": "11:05",
+     "title": "Advancing Precision Medicine with Generative AI and Digital Twins",
+     "speaker": "A/Prof. Michael Menden",
+     "affiliation": "University of Melbourne"
+    },
+    {
+     "id": "wed-genomic-medicine-2",
+     "start": "11:25",
+     "title": "Exploring archetypes in type 2 diabetes in Aboriginal South Australians",
+     "speaker": "Dr Liza Kretzschmar",
+     "affiliation": "The Kids Research Institute Australia"
+    },
+    {
+     "id": "wed-genomic-medicine-3",
+     "start": "11:35",
+     "title": "TheraFlow: A Multi-Stage Framework for evaluating generative drug models from transcriptomics and prioritizing candidates",
+     "speaker": "Rojashree Jayakumar",
+     "affiliation": "University of Sydney"
+    },
+    {
+     "id": "wed-genomic-medicine-4",
+     "start": "11:45",
+     "title": "From genetic associations to drug candidates: A framework for using genetically-imputed disease gene expression signatures to prioritise drug candidates",
+     "speaker": "Dr Solal Chauquet",
+     "affiliation": "University of Queensland"
+    },
+    {
+     "id": "wed-genomic-medicine-5",
+     "start": "11:55",
+     "title": "Investigating the genomic signatures of natural selection to decode the evolution of multiple sclerosis risk",
+     "speaker": "Payel Mukherjee",
+     "affiliation": "University of Tasmania"
+    },
+    {
+     "id": "wed-genomic-medicine-6",
+     "start": "12:05",
+     "title": "When the Stars Don't Align: An Evolutionary-Constraint Framework for Classifying Pharmacogenomic Variants in Humans",
+     "speaker": "Adam Heterick",
+     "affiliation": "The Kids Research Institute Australia"
+    },
+    {
+     "id": "wed-genomic-medicine-7",
+     "start": "12:15",
+     "title": "Exploring Copy Number Variations in Macular Telangiectasia Type 2 (MacTel)",
+     "speaker": "Dr Soo Jen Low",
+     "affiliation": "WEHI"
+    },
+    {
+     "id": "wed-genomic-medicine-8",
+     "start": "12:25",
+     "title": "Tandem repeats and structural variants shape cell type-specific gene expression in the human immune system: a single-cell multiomic analysis of 1,925 individuals",
+     "speaker": "Dr Hope Tanudisastro",
+     "affiliation": "Garvan Institute of Medical Research"
+    }
+   ]
+  },
+  {
+   "id": "wed-immunology",
+   "day": "2026-11-18",
+   "start": "11:05",
+   "end": "12:35",
+   "type": "parallel",
+   "title": "Immunology",
+   "stream": "Immunology",
+   "room": "Lecture Theatre 1 (L1)",
+   "chairs": "Jennifer Boer & Luis Lara Gonzalez",
+   "talks": [
+    {
+     "id": "wed-immunology-1",
+     "start": "11:05",
+     "title": "Multi-species spatial transcriptomics unravels details of human T-lymphotropic virus type 1 cellular infection in immunodeficient mice",
+     "speaker": "Dr Mark Richardson",
+     "affiliation": "WEHI"
+    },
+    {
+     "id": "wed-immunology-2",
+     "start": "11:25",
+     "title": "Accelerating Antiviral Guide RNA Design with Machine Learning-Informed CRISPR-Cas13b Targeting",
+     "speaker": "Phan Dang Khoa",
+     "affiliation": "University of Melbourne"
+    },
+    {
+     "id": "wed-immunology-3",
+     "start": "11:35",
+     "title": "Enhancing variant prioritisation with Kombucha: an interactive transcriptome-wide and cell-type-specific genome variant explorer for Inborn Errors of Immunity",
+     "speaker": "Dr Sarah Hazell Pickering",
+     "affiliation": "Australian National University"
+    },
+    {
+     "id": "wed-immunology-4",
+     "start": "11:45",
+     "title": "Computational Discovery of Immunodominant and Evolutionarily Robust T-Cell Targets for Rational Dengue Vaccine Design",
+     "speaker": "Jingjing Liu",
+     "affiliation": "University of Melbourne"
+    },
+    {
+     "id": "wed-immunology-5",
+     "start": "11:55",
+     "title": "A Biologically Informed Heterogeneous Graph Model for Zero-Shot Pan-Cancer Prediction of Immune Checkpoint Inhibitor Response",
+     "speaker": "Dr Yuheng Liang",
+     "affiliation": "University of New South Wales"
+    },
+    {
+     "id": "wed-immunology-6",
+     "start": "12:05",
+     "title": "Single-Cell TCR Profiling Reveals Bystander CD8+ T-Cells in Retroperitoneal Liposarcoma",
+     "speaker": "Nicole Saw",
+     "affiliation": "Peter MacCallum Cancer Centre"
+    },
+    {
+     "id": "wed-immunology-7",
+     "start": "12:15",
+     "title": "B and CD4+ T cell memory influences outcomes of experimental Streptococcus pyogenes infection",
+     "speaker": "Dr Giulia Iacono",
+     "affiliation": "WEHI"
+    },
+    {
+     "id": "wed-immunology-8",
+     "start": "12:25",
+     "title": "Accelerating T-cell reconstitution following hematopoietic stem cell transplant through analysis at single-clone resolution",
+     "speaker": "Dr Enid Lam",
+     "affiliation": "Peter MacCallum Cancer Centre"
+    }
+   ]
+  },
+  {
+   "id": "wed-lunch",
+   "day": "2026-11-18",
+   "start": "12:35",
+   "end": "13:50",
+   "type": "break",
+   "title": "Lunch & exhibitors",
+   "stream": "Break",
+   "room": "Storey Hall"
+  },
+  {
+   "id": "wed-womens-health",
+   "day": "2026-11-18",
+   "start": "13:50",
+   "end": "15:20",
+   "type": "parallel",
+   "title": "Women's Health",
+   "stream": "Women's Health",
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Enid Lam & Katrina Mitchell",
+   "talks": [
+    {
+     "id": "wed-womens-health-1",
+     "start": "13:50",
+     "title": "Robust Cross-Cohort Prognosis in Triple-Negative Breast Cancer Using Normalized Deep Learning",
+     "speaker": "Dr Sherry Bhalla",
+     "affiliation": "CSIR-Institute of Genomics and Integrative Biology"
+    },
+    {
+     "id": "wed-womens-health-2",
+     "start": "14:10",
+     "title": "CoRe-PTB: data-efficient, cohort-invariant representation learning for predicting preterm birth (PTB) across heterogeneous cohorts",
+     "speaker": "Dr Moomal Farhad",
+     "affiliation": "RMIT University"
+    },
+    {
+     "id": "wed-womens-health-3",
+     "start": "14:20",
+     "title": "Accounting for tissue-specific sources of variation in endometrial omics data",
+     "speaker": "Jessica Chung",
+     "affiliation": "University of Melbourne"
+    },
+    {
+     "id": "wed-womens-health-4",
+     "start": "14:30",
+     "title": "Time Since Last Childbirth Predicts Survival in Women with Germline Pathogenic Varia﻿nts",
+     "speaker": "Dr Luis Lara Gonzalez",
+     "affiliation": "Peter MacCallum Cancer Centre"
+    },
+    {
+     "id": "wed-womens-health-5",
+     "start": "14:40",
+     "title": "Developmental epithelial programs and fetal-like cell states define spatially distinct tumour niches in triple-negative breast cancer",
+     "speaker": "Dr Shani Amarasinghe",
+     "affiliation": "Monash University"
+    },
+    {
+     "id": "wed-womens-health-6",
+     "start": "14:50",
+     "title": "Cross-ancestry meta-analysis and fine-mapping of polyendocrine metabolic ovarian syndrome identifies candidate causal genes at seven loci and three putatively novel signals",
+     "speaker": "Neel Poojari",
+     "affiliation": "University of Western Australia"
+    },
+    {
+     "id": "wed-womens-health-7",
+     "start": "15:00",
+     "title": "Tracing the regulatory atlas of non-coding RNA in human labour",
+     "speaker": "Murali Aadhitya",
+     "affiliation": "Monash University"
+    },
+    {
+     "id": "wed-womens-health-8",
+     "start": "15:10",
+     "title": "Longitudinal Profiling of Human Breast Milk Characterises the Development of a Resident-like CD8+ T Cell Population",
+     "speaker": "Dr Kieran Redpath",
+     "affiliation": "Peter MacCallum Cancer Centre"
+    }
+   ]
+  },
+  {
+   "id": "wed-plant-env",
+   "day": "2026-11-18",
+   "start": "13:50",
+   "end": "15:20",
+   "type": "parallel",
+   "title": "Plant, Environment & Non-model Organisms",
+   "stream": "Plant, Environment & Non-model Organisms",
+   "room": "Lecture Theatre 1 (L1)",
+   "chairs": "Ryan Wick & Wytamma Wirth",
+   "talks": [
+    {
+     "id": "wed-plant-env-1",
+     "start": "13:50",
+     "title": "Mechanisms of Repeat Expansion: Insights from Arabidopsis thaliana",
+     "speaker": "Dr Sridevi Sureshkumar",
+     "affiliation": "Monash University"
+    },
+    {
+     "id": "wed-plant-env-2",
+     "start": "14:10",
+     "title": "Multidimensional integration of transcriptomic and proteomic data reveals coordinated wheat defence responses to the fungal pathogen Parastagonospora nodorum",
+     "speaker": "Dr Kristina Gagalova",
+     "affiliation": "Curtin University"
+    },
+    {
+     "id": "wed-plant-env-3",
+     "start": "14:20",
+     "title": "Integrating phylogenomics and protein structure modelling to predict tissue specificity of persistent marine pollutants on a global scale",
+     "speaker": "Anupama Nayak",
+     "affiliation": "Monash University"
+    },
+    {
+     "id": "wed-plant-env-4",
+     "start": "14:30",
+     "title": "Loss of flagellar motility across the bacterial Tree of Life and its link to type VI secretion systems",
+     "speaker": "Jamiema Sara Philip",
+     "affiliation": "University of New South Wales"
+    },
+    {
+     "id": "wed-plant-env-5",
+     "start": "14:40",
+     "title": "Benchmarking generative AI for bioinformatics workflow design: an Australian land-snails metatranscriptomics case study",
+     "speaker": "Berenice Talamantes Becerra",
+     "affiliation": "CSIRO"
+    },
+    {
+     "id": "wed-plant-env-6",
+     "start": "14:50",
+     "title": "Plant height genetics and molecular regulation among kangaroo paw species and hybrids",
+     "speaker": "Tung Luong",
+     "affiliation": "University of Western Australia"
+    },
+    {
+     "id": "wed-plant-env-7",
+     "start": "15:00",
+     "title": "4D Atlas Reconstruction of Whole Transcriptome Gene Expression During Zebrafish Embryogenesis",
+     "speaker": "Dr Lisa Waylen",
+     "affiliation": "Murdoch Children's Research Institute"
+    },
+    {
+     "id": "wed-plant-env-8",
+     "start": "15:10",
+     "title": "A spatially integrated analysis of host-parasite interactions during intramolluscan development of Fasciola hepatica",
+     "speaker": "Natasha Sharma",
+     "affiliation": "University of Melbourne"
+    }
+   ]
+  },
+  {
+   "id": "wed-at",
+   "day": "2026-11-18",
+   "start": "15:20",
+   "end": "16:05",
+   "type": "break",
+   "title": "Afternoon tea, exhibitors & posters (even numbers)",
+   "stream": "Break",
+   "room": "Back of Storey Hall Auditorium (L5) & Green Brain Room (L7)"
+  },
+  {
+   "id": "wed-awards-talks",
+   "day": "2026-11-18",
+   "start": "16:05",
+   "end": "16:45",
+   "type": "plenary",
+   "title": "Best COMBINE talk · Best EMCR talk",
+   "stream": "Plenary",
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Feargal Ryan",
+   "speaker": "Dr Clara Jiang (EMCR)",
+   "affiliation": "University of Queensland"
+  },
+  {
+   "id": "wed-kn2",
+   "day": "2026-11-18",
+   "start": "16:45",
+   "end": "17:15",
+   "type": "keynote",
+   "title": "Bioinformatics in the age of AI",
+   "speaker": "Prof. Nicola Armstrong",
+   "affiliation": "Curtin University",
+   "stream": "Keynote",
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Feargal Ryan",
+   "badge": "National keynote"
+  },
+  {
+   "id": "wed-close",
+   "day": "2026-11-18",
+   "start": "17:15",
+   "end": "17:20",
+   "type": "plenary",
+   "title": "Day 2 close",
+   "stream": "Plenary",
+   "room": "Storey Hall Auditorium (L5)"
+  },
+  {
+   "id": "wed-dinner",
+   "day": "2026-11-18",
+   "start": "18:30",
+   "end": "23:00",
+   "type": "social",
+   "title": "Conference dinner & Society Awards",
+   "stream": "Social",
+   "room": "The Promenade, Docklands",
+   "desc": "~35 min walk or ~20 min on the free tram from the conference venue."
+  },
+  {
+   "id": "thu-cancer",
+   "day": "2026-11-19",
+   "start": "09:20",
+   "end": "10:30",
+   "type": "parallel",
+   "title": "Cancer",
+   "stream": "Cancer",
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Hannah Coughlan & Sehrish Kanwal",
+   "talks": [
+    {
+     "id": "thu-cancer-1",
+     "start": "09:20",
+     "title": "ClustoCell reveals cell states and markers from single-cell transcriptomes",
+     "speaker": "Dr Adrian Salavaty",
+     "affiliation": "Peter MacCallum Cancer Centre"
+    },
+    {
+     "id": "thu-cancer-2",
+     "start": "09:40",
+     "title": "Linking somatic variants to altered methylation profiles in nanopore-derived breast and pancreatic cancer genomes using unduliner",
+     "speaker": "Halimat Chisom Atanda",
+     "affiliation": "University of Queensland"
+    },
+    {
+     "id": "thu-cancer-3",
+     "start": "09:50",
+     "title": "Benchmarking Long-read RNA-sequencing Protocols for Fusion Detection",
+     "speaker": "Jia Wei Tan",
+     "affiliation": "WEHI"
+    },
+    {
+     "id": "thu-cancer-4",
+     "start": "10:00",
+     "title": "Splicing regulators connect developmental cell states to neuroblastoma phenotypes",
+     "speaker": "Roopan Giri",
+     "affiliation": "Adelaide University"
+    },
+    {
+     "id": "thu-cancer-5",
+     "start": "10:10",
+     "title": "Spatial mapping of senescence using SenSpot reveals age-dependent responses to UVB-induced basal cell carcinoma",
+     "speaker": "Dr Huiwen Zheng",
+     "affiliation": "University of Queensland"
+    },
+    {
+     "id": "thu-cancer-6",
+     "start": "10:20",
+     "title": "Using spatial transcriptomics to uncover the unique biology of extramedullary multiple myeloma",
+     "speaker": "James Comben",
+     "affiliation": "Peter MacCallum Cancer Centre"
+    }
+   ]
+  },
+  {
+   "id": "thu-structural",
+   "day": "2026-11-19",
+   "start": "09:20",
+   "end": "10:30",
+   "type": "parallel",
+   "title": "Structural & Protein",
+   "stream": "Structural & Protein",
+   "room": "Green Brain Room (L7)",
+   "chairs": "Fuyi Li & Alex de Sa",
+   "talks": [
+    {
+     "id": "thu-structural-1",
+     "start": "09:20",
+     "title": "Accelerating Protein Structure Search with Foldseek2",
+     "speaker": "George Bouras",
+     "affiliation": "Adelaide University"
+    },
+    {
+     "id": "thu-structural-2",
+     "start": "09:40",
+     "title": "A foundation-model and human-in-the-loop workflow for hi-plex spatial proteomics of the lung tumour microenvironment",
+     "speaker": "Dr Ilariya Tarasova",
+     "affiliation": "WEHI"
+    },
+    {
+     "id": "thu-structural-3",
+     "start": "09:50",
+     "title": "Reframing enzyme function prediction as conditional generation",
+     "speaker": "William Rieger",
+     "affiliation": "University of Queensland"
+    },
+    {
+     "id": "thu-structural-4",
+     "start": "10:00",
+     "title": "Active Learning Enables Efficient Directed Evolution of a Far-Red Fluorescent Protein with Minimal Experimental Data",
+     "speaker": "Dr Daniel Brown",
+     "affiliation": "WEHI"
+    },
+    {
+     "id": "thu-structural-5",
+     "start": "10:10",
+     "title": "Bioinformatics-Guided Design of Site-Directed Immobilization Interfaces in a Bacterial Mulcopper Oxidase",
+     "speaker": "Jing Zhang",
+     "affiliation": "University of Auckland"
+    },
+    {
+     "id": "thu-structural-6",
+     "start": "10:20",
+     "title": "squishT: peptide-centric proteome redundancy reduction for immunopeptidomics",
+     "speaker": "Dr Katherine Scull",
+     "affiliation": "Monash Health"
+    }
+   ]
+  },
+  {
+   "id": "thu-mt",
+   "day": "2026-11-19",
+   "start": "10:30",
+   "end": "11:15",
+   "type": "break",
+   "title": "Morning tea & exhibitors (no posters)",
+   "stream": "Break",
+   "room": "Storey Hall"
+  },
+  {
+   "id": "thu-kn1",
+   "day": "2026-11-19",
+   "start": "11:15",
+   "end": "11:55",
+   "type": "keynote",
+   "title": "Omnibenchmark and evaluating the AIs in computational biology",
+   "speaker": "Prof. Mark Robinson",
+   "affiliation": "University of Zurich",
+   "stream": "Keynote",
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Stefano Mangiola",
+   "badge": "International keynote"
+  },
+  {
+   "id": "thu-awards",
+   "day": "2026-11-19",
+   "start": "11:55",
+   "end": "12:15",
+   "type": "plenary",
+   "title": "Conference awards & close",
+   "stream": "Plenary",
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Sonika Tyagi",
+   "desc": "Main program ends at 12:15pm."
+  },
+  {
+   "id": "thu-sat-clinical",
+   "day": "2026-11-19",
+   "start": "13:30",
+   "end": "17:00",
+   "type": "satellite",
+   "title": "Clinical & Translational Informatics satellite",
+   "stream": "Satellite",
+   "room": "RMIT Bundoora",
+   "desc": "Afternoon satellite event. Register separately on Eventbrite."
+  },
+  {
+   "id": "thu-workshops",
+   "day": "2026-11-19",
+   "start": "13:30",
+   "end": "17:00",
+   "type": "workshop-block",
+   "title": "ABACBS & BiocAsia workshops (afternoon)",
+   "stream": "Workshop",
+   "room": "RMIT City Campus",
+   "desc": "Workshop times are subject to change — check the workshops page for the final grid. Workshop attendance requires a conference registration; workshop fee is separate (Standard A$90).",
+   "link": "https://www.abacbs.org/workshops-2026-call"
+  },
+  {
+   "id": "fri-workshops",
+   "day": "2026-11-20",
+   "start": "09:00",
+   "end": "17:00",
+   "type": "workshop-block",
+   "title": "ABACBS & BiocAsia workshops (full day)",
+   "stream": "Workshop",
+   "room": "RMIT City Campus",
+   "desc": "Workshop times are subject to change — check the workshops page for the final grid. Computational resources provided by the RMIT Advanced Computing Ecosystem (RACE), powered by AWS.",
+   "link": "https://www.abacbs.org/workshops-2026-call"
+  },
+  {
+   "id": "fri-sat-ai",
+   "day": "2026-11-20",
+   "start": "09:00",
+   "end": "17:00",
+   "type": "satellite",
+   "title": "Satellite: AI in Biomedical Research Practice",
+   "stream": "Satellite",
+   "room": "WEHI",
+   "desc": "Friday satellite event hosted at WEHI."
+  }
+ ],
+ "posters": [
+  {
+   "day": "Tue",
+   "number": 1,
+   "presenter": "Sarah Beecroft",
+   "title": "Unlocking Australia's largest GPU system for structural biology: AMD-native protein folding and design pipelines on Setonix"
+  },
+  {
+   "day": "Tue",
+   "number": 2,
+   "presenter": "Alexandra-Maria Blejusca",
+   "title": "Comparative genomic approaches for the discrimination and characterisation of Burkholderia species"
+  },
+  {
+   "day": "Tue",
+   "number": 3,
+   "presenter": "Yan Pan",
+   "title": "AI-Enhanced Spatial Transcriptomics for Mapping Invisible Drivers of Lung Fibrosis"
+  },
+  {
+   "day": "Tue",
+   "number": 4,
+   "presenter": "Elijah Willie",
+   "title": "PACE: hierarchical empirical Bayes inference of cell-type-resolved proximity effects in spatial transcriptomics, corrected for transcript contamination"
+  },
+  {
+   "day": "Tue",
+   "number": 5,
+   "presenter": "Jialin Ding",
+   "title": "Building a 4D Spatial and Temporal Zebrafish Embryo"
+  },
+  {
+   "day": "Tue",
+   "number": 6,
+   "presenter": "Nicolo Fabila",
+   "title": "Pair-stratified machine learning nominates stable whole-blood markers of binge-eating severity in a small, matched cohort"
+  },
+  {
+   "day": "Tue",
+   "number": 7,
+   "presenter": "Claudio Díaz-García",
+   "title": "Integrated multi-omics reveals a gut microbial signature associated with HIV control without treatment"
+  },
+  {
+   "day": "Tue",
+   "number": 8,
+   "presenter": "Natsuki Sasaki",
+   "title": "Optimising Gene Therapy Delivery: Targeting Specific Cell Types and Tissues with Recombinant Adeno-Associated Virus for Precision Medicine"
+  },
+  {
+   "day": "Tue",
+   "number": 9,
+   "presenter": "Amelia Dunstone",
+   "title": "Removing contamination in Whole Transcriptome Image-based Spatial Transcriptomics data"
+  },
+  {
+   "day": "Tue",
+   "number": 10,
+   "presenter": "Lijin Wang",
+   "title": "Identifying Gene Regulatory Changes Leading to Lethal Brain Cancer"
+  },
+  {
+   "day": "Tue",
+   "number": 11,
+   "presenter": "Alupotha Gamage Tharani Nimna",
+   "title": "Integrative Comparative Multi-Omics Analysis to Identify the Genomic Basis of Whole-Body Transparency in Danionins"
+  },
+  {
+   "day": "Tue",
+   "number": 12,
+   "presenter": "Ching Yin Wan",
+   "title": "GenomeProt: User-friendly proteogenomics for canonical and non-canonical proteoform characterisation"
+  },
+  {
+   "day": "Tue",
+   "number": 13,
+   "presenter": "Joseph Holmes",
+   "title": "A Computational Framework for Integrating Alternative Sequencing Platforms with Biobank Genomic Data"
+  },
+  {
+   "day": "Tue",
+   "number": 14,
+   "presenter": "Steven Morgan",
+   "title": "On the Concept of the Cell Type: Implications for Single-Cell Transcriptomics"
+  },
+  {
+   "day": "Tue",
+   "number": 15,
+   "presenter": "Marek Cmero",
+   "title": "Enabling ultra-accurate rare variant detection: a comprehensive pipeline for duplex sequencing QC and analysis"
+  },
+  {
+   "day": "Tue",
+   "number": 16,
+   "presenter": "Surafel Tegegne",
+   "title": "Arterio-venous Organ-Flux Tracing and Multi-Omics Integration Reveal a Hepatic Clearance Signature of Exercise-Induced EVs"
+  },
+  {
+   "day": "Tue",
+   "number": 17,
+   "presenter": "Aura Daniela Solano Galarza",
+   "title": "Machine learning and deep learning approaches to eye-tracking for ME/CFS: cross-sectional diagnosis and longitudinal prediction"
+  },
+  {
+   "day": "Tue",
+   "number": 18,
+   "presenter": "Raveen Rony",
+   "title": "Uncovering gene regulatory changes leading to invasive breast cancer"
+  },
+  {
+   "day": "Tue",
+   "number": 19,
+   "presenter": "Patrick Crock",
+   "title": "Segmentation-free identification of tissue domains in image-based spatial transcriptomics."
+  },
+  {
+   "day": "Tue",
+   "number": 20,
+   "presenter": "Karmanpreet Sukhija",
+   "title": "Understanding the transcriptional responses contributing towards therapy resistance in advanced and metastatic prostate cancer."
+  },
+  {
+   "day": "Tue",
+   "number": 21,
+   "presenter": "Wenjie Shan",
+   "title": "Pre-diagnostic Temporal Signatures in Primary Care Records as a Foundation for ME/CFS Digital Twins"
+  },
+  {
+   "day": "Tue",
+   "number": 22,
+   "presenter": "Allan Motyer",
+   "title": "Duplex sequencing empowers identification of clonal somatic mutations in brain-resident myeloid cells in multiple sclerosis"
+  },
+  {
+   "day": "Tue",
+   "number": 23,
+   "presenter": "Inna Gupta",
+   "title": "Automating Plasmid Sequencing Analysis Using Nextflow and Oxford Nanopore Technology"
+  },
+  {
+   "day": "Tue",
+   "number": 24,
+   "presenter": "Michael de Vries",
+   "title": "Developing a novel workflow to provide whole-tissue context to MERSCOPE spatial transcriptomic data"
+  },
+  {
+   "day": "Tue",
+   "number": 25,
+   "presenter": "Michael Harper",
+   "title": "Building a more representative Australian population genomic resource"
+  },
+  {
+   "day": "Tue",
+   "number": 26,
+   "presenter": "Kerry A Mullan",
+   "title": "SNOW STORM: A Decision-Support Pipeline for Scalable RNA-seq QC Across Multi-Population Immune Profiles"
+  },
+  {
+   "day": "Tue",
+   "number": 27,
+   "presenter": "Yen-Kai Chen",
+   "title": "Multi-omics reveals vulnerability to chemotherapy side-effects in breast cancer"
+  },
+  {
+   "day": "Tue",
+   "number": 28,
+   "presenter": "Mathias Joensson",
+   "title": "Data Platform for Pandemic Preparedness"
+  },
+  {
+   "day": "Tue",
+   "number": 29,
+   "presenter": "Ling Min Hao",
+   "title": "Bambu-Pipe: a nextflow pipeline for multi-sample long-read single-cell & spatial transcriptomics data"
+  },
+  {
+   "day": "Tue",
+   "number": 30,
+   "presenter": "Weixiao Song",
+   "title": "A genomic resource for tropical silkworm breeding through genome assembly and characterization of multivoltine yellow-cocoon Bombyx mori using Oxford Nanopore long-read sequencing"
+  },
+  {
+   "day": "Tue",
+   "number": 31,
+   "presenter": "Yingyi Mei",
+   "title": "Plasma proteomics enhances genetic risk prediction and biological understanding of venous thromboembolism"
+  },
+  {
+   "day": "Tue",
+   "number": 32,
+   "presenter": "Amos Choo",
+   "title": "Structure-informed graph learning of T cell receptor repertoires for paediatric cancer detection"
+  },
+  {
+   "day": "Tue",
+   "number": 33,
+   "presenter": "Tong Pan",
+   "title": "MolX: A Geometric Foundation Model for Protein-Ligand Modelling"
+  },
+  {
+   "day": "Tue",
+   "number": 34,
+   "presenter": "Chun-Lin Yang",
+   "title": "Multi-Omics-Informed Genomic Representation Learning for ALS Biomarker Discovery and Prognostic Stratification"
+  },
+  {
+   "day": "Tue",
+   "number": 35,
+   "presenter": "Thuy Pham",
+   "title": "Transcription factor binding site as a new search space for variants causing paediatric cataract"
+  },
+  {
+   "day": "Tue",
+   "number": 36,
+   "presenter": "Puthige Sandeep Mallya",
+   "title": "Machine Learning Identification of RNA-Binding Protein Hub Genes in Oral- Cavity-Restricted, HPV-Negative Squamous Cell Carcinoma"
+  },
+  {
+   "day": "Tue",
+   "number": 37,
+   "presenter": "Leo Featherstone",
+   "title": "Automating genomic epidemiology for HIV in NSW, Australia with cryptographic de-identification"
+  },
+  {
+   "day": "Tue",
+   "number": 38,
+   "presenter": "Ashleigh Solano",
+   "title": "SpatialBenchHighRes: Comparative cross-platform benchmarking of high- resolution spatial transcriptomics using matched mouse lymphoid tissue"
+  },
+  {
+   "day": "Tue",
+   "number": 39,
+   "presenter": "Haloom Rafehi",
+   "title": "DNA repair pathways variants are enriched in individuals with biallelic AAGGG CANVAS and RFC1-related disease"
+  },
+  {
+   "day": "Tue",
+   "number": 40,
+   "presenter": "Venkatesh Kamaraj",
+   "title": "HCAscore: an ultrafast signature scoring interface to enable phenotyping of the Human Cell Atlas"
+  },
+  {
+   "day": "Tue",
+   "number": 41,
+   "presenter": "Qiyang Wu",
+   "title": "Chemically informed network analysis links human gut metabolite fractions to macrophage polarisation phenotypes"
+  },
+  {
+   "day": "Tue",
+   "number": 42,
+   "presenter": "Jonat John Mathew",
+   "title": "From Screens to Reports: autoMATE-ing Drug Discovery"
+  },
+  {
+   "day": "Tue",
+   "number": 43,
+   "presenter": "Sirui Weng",
+   "title": "Recurrent intra-tumour heterogeneity is a hallmark of metastatic prostate cancer"
+  },
+  {
+   "day": "Tue",
+   "number": 44,
+   "presenter": "Chorpaka Chankaew",
+   "title": "Evaluating RNA-seq Aligner Effects on Splice Junction Detection and Alternative Splicing Analysis in Brain Cancer"
+  },
+  {
+   "day": "Tue",
+   "number": 45,
+   "presenter": "Carolyn de Graaf",
+   "title": "Identifying miRNA eQTLs in Retinal Pigment Epithelial cells from Age Related Macular Degeneration patients"
+  },
+  {
+   "day": "Tue",
+   "number": 46,
+   "presenter": "Jianshu Zhang",
+   "title": "Benchmarking SNP Calling Tools for Viral Genomic Surveillance Under Public Health Sequencing Scenarios"
+  },
+  {
+   "day": "Tue",
+   "number": 47,
+   "presenter": "Angel Yonehara",
+   "title": "Cell-type-specific transcriptomic consequences of an ARX variant in a mouse model of schizophrenia"
+  },
+  {
+   "day": "Tue",
+   "number": 48,
+   "presenter": "Chol-Hee Jung",
+   "title": "Mitochondrial genome as a matrix, a novel mitochondrial genome representation"
+  },
+  {
+   "day": "Tue",
+   "number": 49,
+   "presenter": "Afeefa Zainab",
+   "title": "A Higher-Order Spatial Graph Model Inferring Directional Cell-Type Influence for Spatial Transcriptomics"
+  },
+  {
+   "day": "Tue",
+   "number": 50,
+   "presenter": "Macgregor Todd",
+   "title": "Contamination detection in ONT long read sequencing data"
+  },
+  {
+   "day": "Tue",
+   "number": 51,
+   "presenter": "Patrick Crock",
+   "title": "An end-to-end, segmentation-free Snakemake pipeline for image-based spatial transcriptomics analysis"
+  },
+  {
+   "day": "Tue",
+   "number": 52,
+   "presenter": "Yunhan Zhang",
+   "title": "Standardising multi-platform spatial transcriptomics analysis with a portable, benchmark-driven Nextflow workflow"
+  },
+  {
+   "day": "Tue",
+   "number": 53,
+   "presenter": "Daksh Pratap Singh Pamar",
+   "title": "Large-scale pharmacotranscriptomics maps genotype- and cell-state- specific drug responses in pancreatic cancer"
+  },
+  {
+   "day": "Tue",
+   "number": 54,
+   "presenter": "Jiaqi Li",
+   "title": "A Comparative Genomics Approach to Identify Genetic Determinants of Transparency in Danionins"
+  },
+  {
+   "day": "Tue",
+   "number": 55,
+   "presenter": "Kavindu Dilshan Jayasooriya Arachchige",
+   "title": "A new compression strategy to reduce the size of nanopore sequencing data"
+  },
+  {
+   "day": "Tue",
+   "number": 56,
+   "presenter": "Tyrone Chen",
+   "title": "EMUMADZ 2.0: Enhanced MUtation Mapping and Detection in Zebrafish"
+  },
+  {
+   "day": "Tue",
+   "number": 57,
+   "presenter": "Muhammad Haroon Shakeel",
+   "title": "multicellFM: a foundation model for multicellular perturbation modelling"
+  },
+  {
+   "day": "Tue",
+   "number": 58,
+   "presenter": "Clarice Harker",
+   "title": "Sequin-controlled metagenomics with paired total-RNA sequencing of matched colorectal tumour and normal tissue reveals a Fusobacterium animalis-led compositional shift"
+  },
+  {
+   "day": "Tue",
+   "number": 59,
+   "presenter": "Minghan Wu",
+   "title": "Investigating Mechanisms of Tyrosine Kinase Inhibitor Resistance in Ph-like Acute Lymphoblastic Leukemia with RNA sequencing"
+  },
+  {
+   "day": "Tue",
+   "number": 60,
+   "presenter": "Hiep Dang",
+   "title": "A simulation framework to investigate why long-read RNA quantification tools disagree"
+  },
+  {
+   "day": "Tue",
+   "number": 61,
+   "presenter": "Calandra Grima",
+   "title": "Lost in the soup: exploring and overcoming ambient RNA contamination in scRNA-seq"
+  },
+  {
+   "day": "Tue",
+   "number": 62,
+   "presenter": "Sungyoung Shin",
+   "title": "Mechanistic network modelling and experimental validation identified synergistic and sequential drug combinations that overcome adaptive resistance in breast cancer"
+  },
+  {
+   "day": "Tue",
+   "number": 63,
+   "presenter": "Kenny Wai Lok Lam",
+   "title": "In Silico Prediction of Substrate Binding Affinity as a Potential Indicator of the Yield of Alkaloid N-Demethylation by Whole-Cell Biotransformation"
+  },
+  {
+   "day": "Tue",
+   "number": 64,
+   "presenter": "George Howitt",
+   "title": "Replicate-aware cell-type specific differential gene expression in spatial transcriptomics data"
+  },
+  {
+   "day": "Tue",
+   "number": 65,
+   "presenter": "Melody Jin",
+   "title": "PanoScope: Trustworthy AI Interpretation of Cell-Type Annotations in Spatial Transcriptomics"
+  },
+  {
+   "day": "Tue",
+   "number": 66,
+   "presenter": "Daniel Rawlinson",
+   "title": "Machine Learning Reveals Multi-Omic Birth Signatures of Autism and ADHD Mediating the Effects of Prenatal Phthalates and Maternal Diet"
+  },
+  {
+   "day": "Tue",
+   "number": 67,
+   "presenter": "Sichang Ding",
+   "title": "Benchmarking spatial clustering algorithms for estimating the number of domains from spatial transcriptomics"
+  },
+  {
+   "day": "Tue",
+   "number": 68,
+   "presenter": "Danamma Kalavikatte",
+   "title": "Long-read profiling reveals distinct 5mC and 5hmC landscapes in hepatocellular carcinoma nuclei"
+  },
+  {
+   "day": "Tue",
+   "number": 69,
+   "presenter": "Wytamma Wirth",
+   "title": "MapTheBacteria: An interactive map of all the bacteria genome assemblies"
+  },
+  {
+   "day": "Tue",
+   "number": 70,
+   "presenter": "Marnie Petrucci",
+   "title": "Genetic insights into white matter hyperintensities using genome-wide analyses"
+  },
+  {
+   "day": "Tue",
+   "number": 71,
+   "presenter": "Benjamin Goudey",
+   "title": "How is AI impacting Australian bioinformatics: findings from national consultation"
+  },
+  {
+   "day": "Tue",
+   "number": 72,
+   "presenter": "Anusuiya Bora",
+   "title": "Systemic Irreproducibility in Single-Cell Omics Enrichment Analyses: A Multi- Paper Audit"
+  },
+  {
+   "day": "Tue",
+   "number": 73,
+   "presenter": "Pak Yui Christopher Hau",
+   "title": "Global mice cortex transcriptomic changes by overexpression of wild-type and mutant TDP-43"
+  },
+  {
+   "day": "Tue",
+   "number": 74,
+   "presenter": "Phaedra Spencer-Merris",
+   "title": "Meta-analysis of Bulk and Single-Cell RNAseq Reveal Zika Virus Impact on TRPV1 and Cell Type Drivers of Viral Neuropathology."
+  },
+  {
+   "day": "Tue",
+   "number": 75,
+   "presenter": "Samuel Montgomery",
+   "title": "Azithromycin attenuates rhinovirus-induced inflammation in CF bronchial epithelial cells"
+  },
+  {
+   "day": "Tue",
+   "number": 76,
+   "presenter": "Denis Bienroth",
+   "title": "A Programming-Free Platform for End-to-End Multi-Slice Spatial Transcriptomics Analysis and Immersive 3D Visualisation"
+  },
+  {
+   "day": "Tue",
+   "number": 77,
+   "presenter": "Julia R. Broadbent",
+   "title": "A standardised functional genomics workflow for rare disease diagnostic proteomics"
+  },
+  {
+   "day": "Tue",
+   "number": 78,
+   "presenter": "Mahdieh Mahdavi",
+   "title": "Identifying gene fusions in short-read single-cell and spatial RNA sequencing data"
+  },
+  {
+   "day": "Tue",
+   "number": 79,
+   "presenter": "Vivek Nair",
+   "title": "Targeted haplotype-based phasing to rescue clinically actionable variants in hard-to-sequence genes"
+  },
+  {
+   "day": "Tue",
+   "number": 80,
+   "presenter": "Chen Gong",
+   "title": "Diabetes Digital Twin (DDT): A Reasoning-incorporated Large Language Model for Disease Trajectory and Complication Prediction"
+  },
+  {
+   "day": "Tue",
+   "number": 81,
+   "presenter": "Han Luo",
+   "title": "Statistical approaches to extract biological insight from latent embeddings of spatial transcriptomics data"
+  },
+  {
+   "day": "Tue",
+   "number": 82,
+   "presenter": "Stephen Li",
+   "title": "Standardising Multi-Omics ctDNA Profiling for Sensitive Monitoring of Prostate Cancer"
+  },
+  {
+   "day": "Tue",
+   "number": 83,
+   "presenter": "Nghia Minh Nguyen",
+   "title": "Evaluating novel Sequencing by Expansion for highly sensitive profiling of the gut metagenome"
+  },
+  {
+   "day": "Tue",
+   "number": 84,
+   "presenter": "Megan Spralja",
+   "title": "Beyond the Bacteriome: Longitudinal Viromics of the Cystic Fibrosis Lung Phageome"
+  },
+  {
+   "day": "Tue",
+   "number": 85,
+   "presenter": "Anshul Budhraja",
+   "title": "Sample-Specific References for Long-Read Single-Cell RNA Sequencing Reveal Hidden Isoform Diversity"
+  },
+  {
+   "day": "Tue",
+   "number": 86,
+   "presenter": "Wasala Arachchige Lahiru Sandaruwan Boyagoda",
+   "title": "MultiNorm: A Spatially Aware normalisation Method for Multi-Slice Spatial Transcriptomics Data"
+  },
+  {
+   "day": "Tue",
+   "number": 87,
+   "presenter": "Alex McAllan",
+   "title": "Caught in the middle: analysis of shotgun sequencing data in a small(ish) community of defined gut bacteria"
+  },
+  {
+   "day": "Tue",
+   "number": 88,
+   "presenter": "Ankita Rathore",
+   "title": "Diversity Stays, Function Shifts: How Age and Sex Reshape Gut Microbiome Function & Composition - A Shotgun Metagenomic Study of Vaccine Immunogenicity"
+  },
+  {
+   "day": "Tue",
+   "number": 89,
+   "presenter": "Xiaochen Zhang",
+   "title": "Cell2Qubit maps single-cell transcriptomes to quantum-ready qubit product states"
+  },
+  {
+   "day": "Tue",
+   "number": 90,
+   "presenter": "Hannah Coughlan",
+   "title": "Phased Epigenomes as a Tool for Studying Transcription Factors Driving Cell Type Specific 3D Genome Organisation"
+  },
+  {
+   "day": "Tue",
+   "number": 91,
+   "presenter": "Prithvi Munday",
+   "title": "From T cell assay to immunotherapy target: mass spectrometry-validated prioritisation of TCR-reactive peptides"
+  },
+  {
+   "day": "Tue",
+   "number": 92,
+   "presenter": "Amrita Acharya",
+   "title": "Biomarkers and concurrent oncogenic programs in SCLC concealed by network topology bias uncovered through cluster-resolution"
+  },
+  {
+   "day": "Tue",
+   "number": 93,
+   "presenter": "Ju-Yin Lien",
+   "title": "Whole-exome sequencing reveals a monoclonal origin and an intermediate genomic position of lung adenosquamous carcinoma"
+  },
+  {
+   "day": "Tue",
+   "number": 94,
+   "presenter": "Nathan Boland",
+   "title": "Visualising large-scale subcellular 3D spatial-omics data interactively"
+  },
+  {
+   "day": "Tue",
+   "number": 95,
+   "presenter": "Tsend-Ayush",
+   "title": "Paired Tumor–Normal Targeted Sequencing Reveals Variant Landscapes in Mongolian Colorectal Cancer"
+  },
+  {
+   "day": "Wed",
+   "number": 1,
+   "presenter": "Ziwei Luo",
+   "title": "A cross-platform strategy to identify and remove shared ambient RNA contamination in Plate-Based single-cell sequencing"
+  },
+  {
+   "day": "Wed",
+   "number": 2,
+   "presenter": "Dezerae Cox",
+   "title": "Hunting HERVs: Tools to detect and disrupt HERV-K proteins associated with Motor Neuron Disease"
+  },
+  {
+   "day": "Wed",
+   "number": 3,
+   "presenter": "Runfei (Kevin) Miao",
+   "title": "Large Language Model–Based Multi-Omics Integration for Diagnosis, Prognosis, and Biomarker Discovery in Ovarian Cancer"
+  },
+  {
+   "day": "Wed",
+   "number": 4,
+   "presenter": "Thomas Conway",
+   "title": "An Explanatory Approach to Long Read Alignment"
+  },
+  {
+   "day": "Wed",
+   "number": 5,
+   "presenter": "Sarah Williams",
+   "title": "Spatial Sampler: A hypothesis-first collection of how-tos for single-cell spatial transcriptomics analysis"
+  },
+  {
+   "day": "Wed",
+   "number": 6,
+   "presenter": "Luis Lara Gonzalez",
+   "title": "Modelling clonal sweep dynamics links tumour fitness to clinical outcomes in solid cancers"
+  },
+  {
+   "day": "Wed",
+   "number": 7,
+   "presenter": "Yangyi Zhang",
+   "title": "Microscopy-based phenotypic analysis of inducers of nucleolar stress and single-cell level heterogeneity under single perturbation"
+  },
+  {
+   "day": "Wed",
+   "number": 8,
+   "presenter": "Keisuke Yasuda",
+   "title": "Which Prognostic Endpoints Should Be Learned Together? Multi-Endpoint Clinical Language Modeling in Acute Leukemia"
+  },
+  {
+   "day": "Wed",
+   "number": 9,
+   "presenter": "Natalie Charitakis",
+   "title": "Application of spatial transcriptomics across organoids for a high-resolution, spatial whole-transcriptome benchmarking dataset"
+  },
+  {
+   "day": "Wed",
+   "number": 10,
+   "presenter": "Changqing Wang",
+   "title": "Igniting full-length isoform analysis in single-cell and spatial RNA-seq data with FLAMESv2"
+  },
+  {
+   "day": "Wed",
+   "number": 11,
+   "presenter": "Sijia Wei",
+   "title": "Wired to Adapt: How Genes and Brain Activity Shape How We Respond to the World"
+  },
+  {
+   "day": "Wed",
+   "number": 12,
+   "presenter": "Alex de Sa",
+   "title": "Interpretable Evolutionary AutoML for Protein Function Prediction via Counterfactual Rules"
+  },
+  {
+   "day": "Wed",
+   "number": 13,
+   "presenter": "Samitha Amarapathy",
+   "title": "DeepPBC - An Interpretable Multi-Omics Deep Learning Framework for Gene Dependency Modelling in Paediatric Brain Cancer"
+  },
+  {
+   "day": "Wed",
+   "number": 14,
+   "presenter": "Zunair Khurram",
+   "title": "Gut Metagenomics of a Rare Eye Disease"
+  },
+  {
+   "day": "Wed",
+   "number": 15,
+   "presenter": "Melkamu Beyene",
+   "title": "Development of a Multi-Trait Polygenic Score for Intrinsic Capacity"
+  },
+  {
+   "day": "Wed",
+   "number": 16,
+   "presenter": "Iftekhar Ahmad Khan",
+   "title": "Identification of protein target involved in Aminoglycosides induced ototoxicity and search for otoprotectors"
+  },
+  {
+   "day": "Wed",
+   "number": 17,
+   "presenter": "Malathi Imiyage Dona",
+   "title": "Uncovering Sex-Specific Mechanisms of Cardiac Remodelling in Disease"
+  },
+  {
+   "day": "Wed",
+   "number": 18,
+   "presenter": "Yih-Chih Chan",
+   "title": "High-Dimensional Immune Profiling Identifies Determinants of CAR T-Cell Response in Diffuse Large B-Cell Lymphoma"
+  },
+  {
+   "day": "Wed",
+   "number": 19,
+   "presenter": "Niel Vanhamel",
+   "title": "From data to biomarkers: multi-perspective agentic evidence synthesis for urine DNA-methylation discovery in bladder cancer"
+  },
+  {
+   "day": "Wed",
+   "number": 20,
+   "presenter": "Naima Vahab",
+   "title": "LUNA FM : A subword foundation model for long non-coding RNAs for functional inference"
+  },
+  {
+   "day": "Wed",
+   "number": 21,
+   "presenter": "Shian Su",
+   "title": "Long-read single-cell RNA sequencing of sorted immune populations in lupus nephritis"
+  },
+  {
+   "day": "Wed",
+   "number": 22,
+   "presenter": "Md Mobarok Hossain",
+   "title": "EBVtyper: resolving Epstein-Barr virus type, co-infection and intertypic recombination from short-read sequencing"
+  },
+  {
+   "day": "Wed",
+   "number": 23,
+   "presenter": "Upasana Maity",
+   "title": "Deciphering Androgen-Driven Immune Remodelling through data integration"
+  },
+  {
+   "day": "Wed",
+   "number": 24,
+   "presenter": "Jessica Tang",
+   "title": "Understanding cell fate plasticity in Diffuse Midline Glioma"
+  },
+  {
+   "day": "Wed",
+   "number": 25,
+   "presenter": "Ignatius Menzies",
+   "title": "Respecting dynamic consent when sharing data: programmatically connecting data access committees, researchers and participants."
+  },
+  {
+   "day": "Wed",
+   "number": 26,
+   "presenter": "Hiruni Wijewardena",
+   "title": "A pipeline for accurately identifying mutational Signatures in the human microbiome"
+  },
+  {
+   "day": "Wed",
+   "number": 27,
+   "presenter": "Linpeng Xie",
+   "title": "A longitudinal digital twin for prognosis and clinical trajectory prediction after haematopoietic stem cell transplantation"
+  },
+  {
+   "day": "Wed",
+   "number": 28,
+   "presenter": "Frederick Jaya",
+   "title": "Lowering Barriers to Bioinformatics Research with BioShell"
+  },
+  {
+   "day": "Wed",
+   "number": 29,
+   "presenter": "Javad Vahdat Atashgah",
+   "title": "A review of cell segmentation methods for imaging-based and sequencing- based spatial transcriptomics."
+  },
+  {
+   "day": "Wed",
+   "number": 30,
+   "presenter": "Esmaeil Roohparvar Basmenj",
+   "title": "Artificial Intelligence-Guided Identification of Epitope Design Principles for Next-Generation Vaccines"
+  },
+  {
+   "day": "Wed",
+   "number": 31,
+   "presenter": "David Hirst",
+   "title": "MINT Block: an integrative approach for identifying multi-omics signatures across independent studies"
+  },
+  {
+   "day": "Wed",
+   "number": 32,
+   "presenter": "Miriam M. Yeung",
+   "title": "Approaches to integrating multiple data systems to support FAIR data at scale and supporting accessibility"
+  },
+  {
+   "day": "Wed",
+   "number": 33,
+   "presenter": "Kerry Heffernan",
+   "title": "Automated Organoid and Lumen Segmentation in Brightfield Microscopy: A Benchmark of Hierarchical and Multiclass Segmentation Models for nested structure analysis"
+  },
+  {
+   "day": "Wed",
+   "number": 34,
+   "presenter": "Agus Salim",
+   "title": "Disentangling Biological from Background Signals in Spatial Proteomics Using Mixture Density Networks"
+  },
+  {
+   "day": "Wed",
+   "number": 35,
+   "presenter": "Alexis Lam",
+   "title": "Identifying Novel Migraine Genetic Biomarkers in the Norfolk Island Isolate Using Whole-Genome Data for Genome-Wide Association Studies and Polygenic Risk Analysis"
+  },
+  {
+   "day": "Wed",
+   "number": 36,
+   "presenter": "Xinyi Cai",
+   "title": "Transcript identity determines the m6A consequence of a somatic 3' -UTR mutation, revealed by TxMod"
+  },
+  {
+   "day": "Wed",
+   "number": 37,
+   "presenter": "Andrew Harrison",
+   "title": "Protein Pirouettes: How do we get more from less?"
+  },
+  {
+   "day": "Wed",
+   "number": 38,
+   "presenter": "Guigui Man",
+   "title": "BCRcat: Structure-aware graph learning of B cell receptor repertoires reveals cancer-associated patterns in paediatric cancer"
+  },
+  {
+   "day": "Wed",
+   "number": 39,
+   "presenter": "Jakob Schuster",
+   "title": "Powerful read processing with matchbox"
+  },
+  {
+   "day": "Wed",
+   "number": 40,
+   "presenter": "Rhys Gillman",
+   "title": "SCARCE: Single Cell Analysis of Rare Clonal Events. Identifying somatic mutations in single cell data"
+  },
+  {
+   "day": "Wed",
+   "number": 41,
+   "presenter": "Xixi Li",
+   "title": "Multi-modal Transcriptomics Reveals Receiver–Effector Mismatch and Downstream Inflammatory Positioning of CSF2 in Psoriasis"
+  },
+  {
+   "day": "Wed",
+   "number": 42,
+   "presenter": "Fatemeh (Maggie) Malekvandfard",
+   "title": "In situ modulation of fungal lipids: transcriptomic basis of enhanced arachidonic acid production in a high-yielding Mortierella alpina mutant"
+  },
+  {
+   "day": "Wed",
+   "number": 43,
+   "presenter": "Mei Du",
+   "title": "Spatial characterisation of cross-species graft-host ecosystem"
+  },
+  {
+   "day": "Wed",
+   "number": 44,
+   "presenter": "Berenice Talamantes Becerra",
+   "title": "Modular Nextflow workflow for reproducible eDNA data processing and publication"
+  },
+  {
+   "day": "Wed",
+   "number": 45,
+   "presenter": "Sourav Dutta",
+   "title": "Development of a novel cross-cohort microbiome resource for discovery in Inflammatory Bowel Disease"
+  },
+  {
+   "day": "Wed",
+   "number": 46,
+   "presenter": "Michael See",
+   "title": "Evaluating the Transcriptional Similarity of hPSC-Derived Heart Valve Tissues to Native Human Valves"
+  },
+  {
+   "day": "Wed",
+   "number": 47,
+   "presenter": "Sanjana Tule",
+   "title": "Generating Hybrid Proteins with the MSA-Transformer"
+  },
+  {
+   "day": "Wed",
+   "number": 48,
+   "presenter": "Mengyuan Shen",
+   "title": "cellNexus: Quality control, annotation, aggregation and analytical layers for the Human Cell Atlas data to accelerate discovery"
+  },
+  {
+   "day": "Wed",
+   "number": 49,
+   "presenter": "Yang Xu",
+   "title": "Systematic benchmarking of spatial transcriptomics analysis workflows using SpaBench"
+  },
+  {
+   "day": "Wed",
+   "number": 50,
+   "presenter": "Minh Anh Bui",
+   "title": "Comprehensive Analysis of the Epigenetic Landscape in Ageing CD8+ T cells"
+  },
+  {
+   "day": "Wed",
+   "number": 51,
+   "presenter": "Kiran Gnana",
+   "title": "NeoPepFlow: A Nextflow Pipeline for End-to-End Tumour Antigen Discovery for Short- and Long-Read Sequencing Platforms"
+  },
+  {
+   "day": "Wed",
+   "number": 52,
+   "presenter": "Aashish Bhandari",
+   "title": "PregBase: A Connected Knowledge Base for Fair and Timely Pregnancy Risk Discovery"
+  },
+  {
+   "day": "Wed",
+   "number": 53,
+   "presenter": "David Chisanga",
+   "title": "Using Artificial Intelligence to detect Cancer-driving fusion genes."
+  },
+  {
+   "day": "Wed",
+   "number": 54,
+   "presenter": "Achmad Dimas Cahyaning Furqon",
+   "title": "Evaluating Nanopore read trimming and quality filtering in bacterial genomics"
+  },
+  {
+   "day": "Wed",
+   "number": 55,
+   "presenter": "Preety Nehra",
+   "title": "BSJ_Finder: A Reproducible Snakemake Pipeline for Novel CircRNAs detection via Back splice Junction Analysis of RNA-Seq"
+  },
+  {
+   "day": "Wed",
+   "number": 56,
+   "presenter": "Sakshi Singh",
+   "title": "An integrated benchmarking framework for RNA structure prediction and virtual screening of druggable non-coding RNAs in endometriosis"
+  },
+  {
+   "day": "Wed",
+   "number": 57,
+   "presenter": "Kiefer Bedoya",
+   "title": "Plastier: A Nextflow Pipeline for Confidence-Calibrated Plasmid– Chromosome Assignment of Antimicrobial Resistance Genes"
+  },
+  {
+   "day": "Wed",
+   "number": 58,
+   "presenter": "Jing Teng",
+   "title": "Benchmarking deep learning for phage morphotype classification from TEM images"
+  },
+  {
+   "day": "Wed",
+   "number": 59,
+   "presenter": "Kisaru Liyanage",
+   "title": "Workflow Catalogue: Simplifying Bioinformatics Workflow Access on NCI Gadi"
+  },
+  {
+   "day": "Wed",
+   "number": 60,
+   "presenter": "Murali Aadhitya",
+   "title": "Profiling the 3D chromosomal organisation in human myometrium"
+  },
+  {
+   "day": "Wed",
+   "number": 61,
+   "presenter": "Sehrish Kanwal",
+   "title": "From Genomics to Immune Evasion: Mapping Immune Heterogeneity in Early Breast Cancer"
+  },
+  {
+   "day": "Wed",
+   "number": 62,
+   "presenter": "Diana Paola Sanabria Lozano",
+   "title": "Metabolic potential for the Production of commodities from greenhouse gases and detoxification of metals: a Genomic-Centric Approach exploration to microbial communities from oligotrophic environments"
+  },
+  {
+   "day": "Wed",
+   "number": 63,
+   "presenter": "Chunlei Liu",
+   "title": "Condition-aware deep factor learning with M3 enables integration, patient- level inference, and multi-resolution interpretation in multimodal single-cell data"
+  },
+  {
+   "day": "Wed",
+   "number": 64,
+   "presenter": "Yingnan Gao",
+   "title": "sccomp v2.0: Robust differential covariance analysis captures dynamics of cell type co-occurrence and co-exclusion in single-cell data"
+  },
+  {
+   "day": "Wed",
+   "number": 65,
+   "presenter": "Ammar Aziz",
+   "title": "Recovering “natural” read duplicates in targeted viral sequencing experiments"
+  },
+  {
+   "day": "Wed",
+   "number": 66,
+   "presenter": "Brad Balderson",
+   "title": "Comprehensive molecular impact mapping of common and rare variants at GWAS loci"
+  },
+  {
+   "day": "Wed",
+   "number": 67,
+   "presenter": "Lawrence Huang",
+   "title": "scDeepID enables single-cell genetics analysis with robust cell state identification"
+  },
+  {
+   "day": "Wed",
+   "number": 68,
+   "presenter": "Anastasia Ward",
+   "title": "Structural and dynamic characterisation of ABCB1 interactions with CFTR Modulators and analgesics: Implications for pain management in cystic fibrosis"
+  },
+  {
+   "day": "Wed",
+   "number": 69,
+   "presenter": "Andrew Lonsdale",
+   "title": "Discovery and visualisation of rare splice junctions at scale with LemonSplice"
+  },
+  {
+   "day": "Wed",
+   "number": 70,
+   "presenter": "Caitlin Page",
+   "title": "Roll over, beta value: there’s a new alpha in town for DNA methylation analysis"
+  },
+  {
+   "day": "Wed",
+   "number": 71,
+   "presenter": "Shiun Low",
+   "title": "Identifying Molecular Markers Underpinning Group A Streptococcus Tissue Tropism"
+  },
+  {
+   "day": "Wed",
+   "number": 72,
+   "presenter": "Ahmad Zeeshan Siddiqui",
+   "title": "Benchmarking and calibrating novel isoform discovery in long-read single- cell RNA-seq data: IsoQuant, Bambu-Clump, and SQANTI3"
+  },
+  {
+   "day": "Wed",
+   "number": 73,
+   "presenter": "Layla Wang",
+   "title": "Benchmarking AVITI Teton CytoProfiling with Cell Paint: Comparative Multiomics analysis using three segmentation models and treated immune cell samples"
+  },
+  {
+   "day": "Wed",
+   "number": 74,
+   "presenter": "Bernie Pope",
+   "title": "Varlap: Bringing Alignment-Based Variant Quality Control to Scale"
+  },
+  {
+   "day": "Wed",
+   "number": 75,
+   "presenter": "Leon Wang",
+   "title": "AbPreP: A Nextflow pipeline for preprocessing of long-read antibody sequencing data"
+  },
+  {
+   "day": "Wed",
+   "number": 76,
+   "presenter": "Suneth Samarasinghe",
+   "title": "Realvar: real-time variant calling and variant-aware adaptive sampling for nanopore sequencing"
+  },
+  {
+   "day": "Wed",
+   "number": 77,
+   "presenter": "Rafael Peres da Silva",
+   "title": "EQUIP-RD: benchmarking population representation across rare-disease variant prioritisation"
+  },
+  {
+   "day": "Wed",
+   "number": 78,
+   "presenter": "Samuel Lee",
+   "title": "cloneCallR: a new tool for demultiplexing combinatorial cellular barcoding"
+  },
+  {
+   "day": "Wed",
+   "number": 79,
+   "presenter": "Jacob Bradford",
+   "title": "Scalable CRISPR-Cas9 Off-Target Analysis Using Hardware Acceleration and Data Compression"
+  },
+  {
+   "day": "Wed",
+   "number": 80,
+   "presenter": "George He",
+   "title": "An interactive, user-guided workflow for reconstructing spatial data in 3D"
+  },
+  {
+   "day": "Wed",
+   "number": 81,
+   "presenter": "Bernie Pope",
+   "title": "Gurita: a flexible, scalable command line data analytics and plotting tool with applications in bioinformatics"
+  },
+  {
+   "day": "Wed",
+   "number": 82,
+   "presenter": "Anna Reiter",
+   "title": "Digital Twins for Counterfactual Outcome Prediction in Oncology"
+  },
+  {
+   "day": "Wed",
+   "number": 83,
+   "presenter": "Namrata Bhattacharya",
+   "title": "AI-driven transfer of rare cell states across species"
+  },
+  {
+   "day": "Wed",
+   "number": 84,
+   "presenter": "Saliha Elif Yildizhan",
+   "title": "Clone-resolved single-cell analysis identifies rare pre-existing cell states that drive relapse after CAR T-cell therapy in B-ALL"
+  },
+  {
+   "day": "Wed",
+   "number": 85,
+   "presenter": "Zipporah Mariebelle Rosario Enriquez",
+   "title": "Bioinformatic Data Integration Reveals Conserved Regenerative Programs in the Spiny Mouse"
+  },
+  {
+   "day": "Wed",
+   "number": 86,
+   "presenter": "Galen Pereira",
+   "title": "Interpreting cellular foundation models through gene attention graphs"
+  },
+  {
+   "day": "Wed",
+   "number": 87,
+   "presenter": "Katrina Mitchell",
+   "title": "The epigenetic road map of KMT2D in B cell activation"
+  },
+  {
+   "day": "Wed",
+   "number": 88,
+   "presenter": "Nicholas Gecks-Preston",
+   "title": "Generative Pan-genomics: Recovering Latent Structure in Bacterial Gene Repertoires"
+  },
+  {
+   "day": "Wed",
+   "number": 89,
+   "presenter": "Taylor Woodward",
+   "title": "The Frustrating Nature of Tissues"
+  },
+  {
+   "day": "Wed",
+   "number": 90,
+   "presenter": "Anna Lysenko",
+   "title": "Uncovering novel ageing - DNA methylation marks using long read sequencing"
+  },
+  {
+   "day": "Wed",
+   "number": 91,
+   "presenter": "Aaron Kilgallon",
+   "title": "Spatiotemporal Characteristics of Immune Checkpoint Inhibitor Efficacy in Head and Neck Squamous Cell Carcinoma"
+  },
+  {
+   "day": "Wed",
+   "number": 92,
+   "presenter": "Xuan Liu",
+   "title": "Cerebrospinal fluid proteomics defines reproducible molecular subgroups of ALS and highlights immune activation and synapto-axonal pathway involvement"
+  },
+  {
+   "day": "Wed",
+   "number": 93,
+   "presenter": "Coralina Collar Fernandez",
+   "title": "Chronic corticosterone supplementation alters sperm DNA methylation and hydroxymethylation in exposed mice and their male offspring"
+  },
+  {
+   "day": "Wed",
+   "number": 94,
+   "presenter": "Wunna Kyaw",
+   "title": "Pyrenees: Context-Aware Genomic Sequence Modeling of Chromatin Accessibility Across Single-Cell States"
+  },
+  {
+   "day": "Wed",
+   "number": 95,
+   "presenter": "Neblina Sikta",
+   "title": "Evaluating variant evidence and filtering strategies for genome-wide phasing of long-read sequencing data"
+  }
+ ],
+ "workshops": [
+  {
+   "id": "ws-2",
+   "title": "Multi-task single-cell omics: integration, benchmarking, and condition-aware inference",
+   "presenters": [
+    "Pengyi Yang",
+    "Chunlei Liu",
+    "Sichang Ding",
+    "Pranav Kataria",
+    "Samuel Jolley"
+   ],
+   "duration": "3 hours",
+   "audience": "The workshop is intended for bioinformaticians, computational biologists, data scientists and researchers who analyse or plan to analyse multimodal, multi-batch or multi-condition single-cell data. It is suitable for postgraduate students, postdoctoral researc",
+   "prereq": "Participants should have basic familiarity with single-cell data analysis and common concepts such as cell types, batches, dimensionality reduction, and train/test evaluation. Basic Python and Jupyter Notebook experience is recommended; advanced programming or",
+   "capacity": "45",
+   "abstract": "Multimodal single-cell datasets increasingly combine transcriptomic, protein, and chromatin measurements across batches, conditions, and patients. Analysts must select an integration strategy suited to their study design, assess whether biological information is preserved, and obtain interpretable cell- and patient-level results without removing condition-associated signals.\n\nThis hands-on workshop presents a task-centred workflow using three open-source tools. Participants will use scMultiBench to distinguish vertical, diagonal, mosaic and cross-modality integration settings (defined by how cells, features and modalities are shared across datasets) and compare methods using task-specific measures of batch correction, biological conservation, classification, imputation and computational efficiency. They will then use Matilda to learn a shared multimodal representation for data augmentation, cell type classification, dimension reduction, and feature selection. Finally, they will use M3 for condition-aware integration, donor-level prediction and interpretation at gene, cell, and cell-type resolutions.\n\nBy the end, participants will be able to: (1) match multimodal study designs to ap"
+  },
+  {
+   "id": "ws-3",
+   "title": "Modelling continuous cell states using scRNA-seq data",
+   "presenters": [
+    "Jiadong Mao"
+   ],
+   "duration": "3 hours",
+   "audience": "Researchers and students who analyse scRNA-seq data and want to move beyond discrete cell types to model continuous processes such as development, differentiation, activation and disease progression.",
+   "prereq": "",
+   "capacity": "15",
+   "abstract": "Many biological processes are continuous, and they should be modelled continuously. In his workshop, we will introduce statistical approaches for modelling continuous cell states from scRNA-seq data.\n\nUsing data from human heart development as an example, participants will follow a workflow across three modules of analysis. First, they will use Φ-Space to enrich discrete cell labels with continuous phenotype scores learned from a reference. Second, they will infer cardiomyocyte maturation trajectories using slingshot and diffusion pseudotime, and compare inferred trajectories using different cell embeddings. Third, they will use NeighbourNet to investigate how cell-specific co-expression patterns vary along the maturation continuum.\n\nWe will start the workshop with a short conceptual presentation, followed by guided practical expercises and interpretation of model outputs. We will keep the emphasis on modelling choices and biological interpretation.\n\nBy the end of this work, participants will be able to identify when continuous modelling is appropriate; construct and interpret cell phenotype scores; fit, visualise and critically compare pseudotime inference methods; explore cell-sp"
+  },
+  {
+   "id": "ws-4",
+   "title": "Transcripts, Embeddings, and Niches: A Practical Guide to Graph Neural Networks in Spatial Transcriptomics",
+   "presenters": [
+    "Yan Pan"
+   ],
+   "duration": "1.5 hours;3 hours",
+   "audience": "Bioinformaticians and biologists who are interested in analysing imaged-based spatial transcriptomics data",
+   "prereq": "Basic familiarity with R/Python and Unix command line",
+   "capacity": "30",
+   "abstract": "Image-based spatial transcriptomics (iST) now resolve tissue architecture at single-transcript resolution, but analyses are still limited. Segmentation introduces ambiguity to data due to unreliable cell borders, overlapping cells, or transcript noise. Additionally, most tools for ST analysis struggle when being scaled to large cohorts. \n\nIn this workshop, we present a new Snakemake workflow designed for segmentation-free, highly scalable analysis of iST data. The workflow applies Graph Neural Networks (GNNs) directly on transcript-level data, bypassing the cell segmentation step entirely, and produces common analysis endpoints such as spatial domains and differential gene expression analyses. \n\nThrough a hands-on session, participants will learn how to generate molecular graphs from tissue samples, as well as methods to visualise and interpret outputs in biological contexts such as spatial niche detection and tissue architecture characterisation. By the end of the workshop, attendees will be equipped to apply this segmentation-free workflow to their own spatial transcriptomics datasets, enabling reproducible, transcript-level insights into complex tissue biology without the errors"
+  },
+  {
+   "id": "ws-5",
+   "title": "Omnibenchmark: orchestrating transparent, reproducible, extensible and standardized scientific benchmarks",
+   "presenters": [
+    "Prof. Mark D. Robinson"
+   ],
+   "duration": "3 hours",
+   "audience": "This workshop would be relevant to all computational biologists and especially method users and developers, since benchmarks represent the evidence we gather to demonstrate the merit of computational methods.",
+   "prereq": "Unix command line expertise is essential; some bash scripting knowledge would be helpful.\nBasic familiarity with R/Python and with the conda package manager would be helpful. \nBasic familiarity with git/github would also be recommended.",
+   "capacity": "20",
+   "abstract": "Computational biology benchmarks, separate from \"challenges\", are formal scientific comparisons of computational methods, accompanied by a collection of independently useful artifacts (e.g., software environments, data, code, etc.). The aim of a benchmark is to offer a review of the developments for a well-defined computational task by summarizing the available methods and their strengths. Importantly, identifying a single best method is not the ultimate goal; instead, the goal is to arrive at a set of performant methods across a plurality of datasets for a subtask. Benchmarks draw on a range of (sometimes domain-specific) techniques, including the generation of synthetic datasets that mimic real data or the use of ground truth derived from real experimental data or from biology; notably, producing appropriate reference datasets is resource intensive. Performance criteria are then defined for the task at hand (the importance of which can differ across researchers) and methods are evaluated; in some cases, relevant criteria may need to be developed as new understanding of data and methods emerges. This hands-on workshop is designed for and relevant to all computational biologists, s"
+  },
+  {
+   "id": "ws-6",
+   "title": "From Reads to Isoforms: Long-Read RNA-Seq Analysis with bambu across Bulk, Single-Cell and Spatial Data",
+   "presenters": [],
+   "duration": "1.5 hours",
+   "audience": "This workshop is aimed at researchers who are already working with long-read RNA sequencing data or planning to do so, whether bulk, single-cell or spatial, and more broadly at anyone with a particular interest in long-read transcriptomic analysis.\n\nTypical at",
+   "prereq": "Assumed knowledge\nComfortable working in R, and familiar with basic RNA-seq concepts such as alignment, count matrices and differential expression.\nNo prior experience with bambu or other long-read tools is required, and no command-line experience: the worksho",
+   "capacity": "30",
+   "abstract": "Long-read RNA sequencing resolves full-length transcripts, exposing the isoform diversity that shapes cellular identity and disease biology and that increasingly guides the design of RNA therapeutics. As these data become routine across bulk, single-cell and spatial protocols, the ability to analyse them reliably becomes more important. bambu, a Bioconductor R package for transcript discovery and quantification, is among the leading tools developed for this purpose, widely used in long-read studies and evaluated in independent benchmarks of long-read transcript analysis.\n\nThis 1.5-hour workshop demonstrates the use of bambu on bulk, single-cell and spatial long-read RNA sequencing data. The workshop starts with a 20-minute introduction covering state-of-the-art long-read sequencing technologies, the analytical challenges specific to single-cell and spatial long-read data, and how bambu addresses them. In the first hands-on session (30 minutes), participants run a complete bambu workflow on publicly available SG-NEx data, perform reference-guided transcript discovery and quantification, and learn how to interpret and tune the key outputs. The second hands-on session (30 minutes) cov"
+  },
+  {
+   "id": "ws-7",
+   "title": "Spatial Taster – A quick sampler of spatial transcriptomics tests",
+   "presenters": [
+    "Sarah Williams",
+    "Nicholas Matigian",
+    "Magdalena Antczak"
+   ],
+   "duration": "1.5 hours",
+   "audience": "No spatial transcriptomics analysis experience is necessary, this workshop is aimed at those interested in understanding how it can be applied to testing biological hypotheses.  As a short workshop, it provides a brief introduction to what’s possible.",
+   "prereq": "This workshop assumes basic knowledge of R.",
+   "capacity": "30",
+   "abstract": "This workshop provides a practical introduction to comparative analysis of spatial omics data. Starting with a pre-processed in situ spatial dataset, we will undertake some basic differential expression, look at differences of proportions of cell types, and exploratory plotting. We will work in R, using mostly Bioconductor tools. We will use a cosMx dataset, but these approaches are applicable to other technologies like Xenium or vizgen.\nAlong the way we will discuss considerations specific to spatial analyses, how to scale it up to a full analysis, and how to assess our results. We will also introduce the Spatial Sampler collection of worked examples and code snippets for analyses on spatial datasets."
+  },
+  {
+   "id": "ws-8",
+   "title": "Vibe-sciencing, carefully: getting real analyses out of coding agents",
+   "presenters": [
+    "Luis Pedro Coelho"
+   ],
+   "duration": "3 hours",
+   "audience": "Researchers who do their own computational analysis — PhD students, postdocs, staff bioinformaticians, and PIs.\n\nPart 1 is for those who have heard about coding agents but have not used one, or have tried once and bounced off. Part 2 is for those who have used",
+   "prereq": "Essential, both parts — a paid account or API credits. Every participant must arrive with an agentic coding tool installed, authenticated, and backed by a paid subscription or API credits. This is not optional: free tiers rate-limit within minutes of hands-on ",
+   "capacity": "18",
+   "abstract": "Coding agents have moved quickly from novelty to daily tool for many computational biologists. Used well, they compress the distance between a biological question and a working analysis. Used carelessly, they produce plausible-looking pipelines that are subtly wrong and hard to audit. This workshop runs as two independent 90-minute sessions; participants may attend either or both.\n\nPart 1 — Getting started with coding assistants. For people who have not used one. We install and configure an agent, connect it to a real project, and work through a small coding example together: how a session is structured, what the agent can and cannot see, how to give it context through project files such as CLAUDE.md, how permissions and tool access work, and how to keep the whole thing inside a reproducible environment and under version control. We also cover a few tips on getting the most out of your tokens. The emphasis is on establishing habits — small verifiable steps, everything in git — before speed becomes tempting.\n\nPart 2 — Vibe-sciencing in practice. For people who have used coding assistants already, but not yet for data analysis. We work through some case studies exploring the possibil"
+  },
+  {
+   "id": "ws-9",
+   "title": "Taxonomic profiling and MAG building from long-read metagenomics",
+   "presenters": [
+    "Ben Woodcroft",
+    "Luis Pedro Coelho"
+   ],
+   "duration": "3 hours",
+   "audience": "Researchers and students who work with, or are about to start working with, microbial community sequencing data, and who want to use long reads effectively.",
+   "prereq": "Comfort with the Unix command line is essential.\n\nBasic familiarity with sequencing data concepts (FASTQ, contigs, coverage, taxonomy). Prior metagenomics experience is helpful but not required.\n\nA laptop with a modern web browser, a terminal, and a working SS",
+   "capacity": "20",
+   "abstract": "Long-read sequencing is quickly becoming a mainstream option for metagenomics. Both Oxford Nanopore (R10.4.1 and later) and PacBio HiFi now deliver accuracy sufficient for routine metagenome assembly, and long reads regularly yield complete, circularised genomes from complex communities. This hands-on workshop covers the practical analysis of long-read metagenomes end to end.\n\nParticipants will work through a realistic dataset. We will begin with quality control and a look at how modern long-read error profiles differ from short-read data and from earlier nanopore chemistries. We then cover read-based taxonomic profiling using single-copy marker genes, and how to estimate what fraction of a sample is prokaryotic, and why profiling and assembly can disagree. The second half moves to assembly with metaFlye, polishing with short-reads, binning of long-read assemblies, dereplication, and quality assessment and taxonomic assignment of the resulting MAGs.\n\nBy the end, participants will be able to run a complete long-read metagenomics analysis."
+  },
+  {
+   "id": "ws-10",
+   "title": "ATAClone: Cancer Clone Identification and Copy Number Estimation from Single-cell ATAC-seq",
+   "presenters": [],
+   "duration": "1.5 hours",
+   "audience": "Recommended for those interested in the following topics:\n10X scATAC-seq or scRNA-seq + scATAC-seq studies of cancer\nSingle-cell copy number estimation\nNormalisation and clustering of single-cell data",
+   "prereq": "Basic familiarity with R\nInstallation of the ATAClone package from our Github (https://github.com/TrigosTeam/ATAClone) if working on a personal device",
+   "capacity": "30",
+   "abstract": "Single-cell analyses of cancer typically begin by identifying distinct populations of cancer cells by unsupervised clustering. However, in many cases this clustering is explained simply by differences in the copy number. To detect and estimate these differences in copy number, we have developed ATAClone. Applicable to both standalone and multiome scATAC-seq assays, ATAClone first identifies cancer ‘clones’ with shared copy number profiles, then estimates the copy number of each clone jointly. Advantages over other single-cell copy number calling tools include completely automated clone identification as well as ploidy-aware copy number estimation. \n\nIn this workshop, participants will be guided through all key steps of a typical ATAClone workflow. These steps include selection of a set of 'stably-accessible' regions for which copy number signal is maximised,  automated filtering of 10X single-cell RNA-seq + ATAC-seq data for high quality cells, application of a variance-stabilising transformation and PCA to separate clones by their copy number differences, optimisation of the Leiden algorithm to minimise false positive clones, and derivation of absolute copy number based on total D"
+  },
+  {
+   "id": "ws-11",
+   "title": "From Reads to Resistance: An End-to-End Antimicrobial Resistance Analysis with BV-BRC",
+   "presenters": [
+    "Maulik Shukla",
+    "James Davis"
+   ],
+   "duration": "6 hours",
+   "audience": "The workshop is intended for graduate students, postdoctoral researchers, bioinformaticians, computational biologists, microbiologists, clinical infectious-disease and antimicrobial-resistance researchers, genomic epidemiologists, and others interested in appl",
+   "prereq": "Participants should have a basic understanding of molecular biology, microbiology, or genomics. No programming or command-line experience is required.\n\nParticipants must:\n\n• Bring a laptop with a modern web browser.\n• Register for a free BV-BRC account before ",
+   "capacity": "50",
+   "abstract": "Antimicrobial resistance (AMR) is a major global health challenge and an important application of high-throughput sequencing, microbial genomics, and metagenomics. Translating sequence data into an understanding of resistance often requires integrating multiple computational analyses spanning genome reconstruction, annotation, comparative genomics, sequence variation, protein structure, and phylogenetics.\n\nThis full-day, hands-on workshop will guide participants through an end-to-end investigation of AMR using the Bacterial and Viral Bioinformatics Resource Center (BV-BRC), a freely available bioinformatics platform for infectious-disease research.\n\nWorking with real sequencing datasets, participants will assess the quality and taxonomic composition of metagenomic reads, identify AMR genes through read mapping, and reconstruct individual bacterial genomes through metagenomic binning. Participants will then annotate genomes and compare resistant and susceptible isolates to investigate the genomic basis of resistance. The investigation will progress from genomes to genes and proteins: participants will identify resistance-associated sequence variation, examine variants in three-dimen"
+  },
+  {
+   "id": "ws-12",
+   "title": "blisa: Inferring Cell–Cell Communication from Spatial Transcriptomics",
+   "presenters": [],
+   "duration": "1.5 hours",
+   "audience": "This workshop is aimed at researchers and bioinformaticians working with or planning to work with spatial transcriptomics data, who want to add cell–cell communication analysis to their toolkit.",
+   "prereq": "Basic familiarity with R",
+   "capacity": "30",
+   "abstract": "Spatial transcriptomics (ST) provides spatial context that can improve the inference of cell–cell communication (CCC), but analysing CCC from spatial data presents challenges including sparse imaging-based ST (iST) measurements, appropriate definition of spatial neighbourhoods, and computational scalability.\n\nThis hands-on workshop will introduce blisa, an R package that infers CCC from ST data using Bivariate Local Moran’s I statistics. blisa works on both imaging-based (e.g. Xenium) and sequencing-based (e.g. Visium) ST. It aggregates cell-level data into hexagonal bins to reduce sparsity and computational cost while preserving local spatial structure, identifies hotspots where ligand and receptor expression co-localise, and summarises signalling at the pathway and cell-type level.\n\nWorking through real Xenium and Visium datasets, participants build a complete workflow: preparing and binning spatial data, curating ligand–receptor pairs, detecting hotspots with permutation-based significance testing, quantifying sender–receiver relationships between cell types, and producing spatial maps and heatmaps. We also cover platform-specific pitfalls, e.g., detection sensitivity that shape"
+  },
+  {
+   "id": "ws-13",
+   "title": "Differential transcript expression and differential transcript usage using Salmon and edgeR",
+   "presenters": [],
+   "duration": "1.5 hours",
+   "audience": "People who are interested in transcript-level RNA-seq analysis",
+   "prereq": "basic familiarity with R and Unix command line; pre-installation of R (version 4.5.2 or later) and required R packages (edgeR version 4.8.2, limma version 3.66.0, rtracklayer version 1.70.1, ggplot2 version 4.0.2, Gviz version 1.54.0, pheatmap version 1.0.13, ",
+   "capacity": "30",
+   "abstract": "Differential transcript expression (DTE) and differential transcript usage (DTU) analyses provide high-resolution insights into transcript-level changes and regulatory mechanisms. In this hands-on workshop, participants will learn an end-to-end workflow for transcript-level RNA-seq analysis using Salmon and the recently developed edgeR DTE and DTU frameworks. These frameworks incorporate quantification-uncertainty correction and new quasi-likelihood methods, offering strong statistical power, false discovery rate control and computational efficiency.\n\nUsing RNA-seq data from human lung adenocarcinoma cell lines and the complete telomere-to-telomere human reference genome (T2T-CHM13), participants will learn to quantify transcript abundance with Salmon, organise GFF-based transcript annotations, and assess DTE and DTU with edgeR while accounting for read-to-transcript ambiguity and biological variation. Although demonstrated using the human T2T-CHM13 reference, the workflow can be applied to any well-annotated reference transcriptome.\n\nBy the end of the workshop, participants will be able to conduct and interpret robust transcript-level analyses across diverse organisms and referenc"
+  },
+  {
+   "id": "ws-14",
+   "title": "Hello nf-core – Intermediate Nextflow training",
+   "presenters": [
+    "Dr. Vinícius Werneck Salazar"
+   ],
+   "duration": "3 hours",
+   "audience": "researchers and bioinformaticians who have had some contact with Nextflow/workflow managers, maybe have written a basic pipeline, and want to take their skills to their next level.",
+   "prereq": "Must know basic Nextflow, at a minimum complete the Hello Nextflow training: https://training.nextflow.io/2.8.1/hello_nextflow/",
+   "capacity": "20",
+   "abstract": "This workshop uses official Nextflow training material. Here is the description taken directly from their website:\n\nThis course is designed to be hands-on, with goal-oriented exercises structured to introduce information gradually.\n\nYou will be introduced to nf-core, a community effort to develop and maintain a curated set of scientific pipelines built using Nextflow, as well as relevant tooling and guidelines that promote open development, testing, and peer review (Nat Biotechnol 38, 276–278 (2020), Genome Biol 26, 228 (2025)).\n\nThe pipelines developed by the nf-core community are designed to be modular, scalable, and portable, allowing researchers to easily adapt and execute them using their own data and compute resources. The best practices guidelines enforced by the project further ensure that the pipelines are robust, well-documented, and validated against real-world datasets. This helps to increase the reliability and reproducibility of scientific analyses and ultimately enables researchers to accelerate their scientific discoveries.\n\nWe won't cover everything there is to know about nf-core pipelines in this course, because nf-core encompasses many features and conventions de"
+  },
+  {
+   "id": "ws-15",
+   "title": "Work less, garden more: Quick wins for scientific computing",
+   "presenters": [
+    "Sarah Beecroft",
+    "Emily Kahl",
+    "Jake Bradford"
+   ],
+   "duration": "3 hours",
+   "audience": "Novices to large scale data analysis; Practising bioinformaticians that would like to improve their computational throughput",
+   "prereq": "Experience with the terminal / command prompt is desirable.",
+   "capacity": "40",
+   "abstract": "This practical workshop will improve bioinformaticians’ ability to get their science done faster. Too often, scientific outputs are delayed by computational bottlenecks that could be avoided with some minor tweaks. We will present core optimisation techniques, distilled into practical takeaways that attendees can implement same-day. Key topics include:\n\n- Easy ways to gain speedups with parallelism\n- Avoiding I/O slowdowns\n- Advanced UNIX command line tips and tricks\n- Picking the right compute infrastructure for the job\n- Faster data transfers\n- Sleuthing where the bottlenecks are \n\nThe workshop is designed to be infrastructure-agnostic, spanning laptop, cloud, and HPC. Attendees will gain understanding of HPC scheduling and cloud-native approaches such as queue-based workflows and serverless computing, enabling participants to match infrastructure choices to the scale and complexity of their analyses. We will also outline how to obtain access to Australian research computing resources, and outline how to benchmark your code for national compute grant schemes. We will provide guidance on how and when to ask for help, which is a common area of uncertainty. \n\nAt the end of the sessi"
+  },
+  {
+   "id": "ws-16",
+   "title": "cellNexus and sccomp: From the Human Cell Atlas to insights",
+   "presenters": [],
+   "duration": "3 hours;1.5 hours",
+   "audience": "",
+   "prereq": "Prior experience with single-cell analyses or linear models is beneficial but not necessary.",
+   "capacity": "20",
+   "abstract": "The Human Cell Atlas and CELLxGENE now host hundreds of millions of harmonised single cells spanning healthy and diseased tissues. This data availability created enormous opportunities to unveil biological mechanisms at high resolution across cell types, tissues and population niches. However, identifying a collection of atlases is only a small part of the effort. Making large-scale data analysis ready requires weeks or months of work.\nThis hands-on workshop introduces cellNexus, an API for R and Python that delivers quality control, annotation, and analysis layers for CELLxGENE-scale single-cell data. It allows you to conveniently create ready-to-use SingleCellExperiment and/or Seurat objects of arbitrary selections of cells. Beyond expression data, cellNexus also standardises cell type labels across studies through multi-reference consensus annotation and enriches samples with standardised metadata, including age, ethnicity, and tissue groups. This enhanced metadata supports large-scale modelling, for example of cell-type composition patterns. For large-scale compositional analyses of single-cell data, we introduce sccomp, a robust Bayesian framework for detecting differences in "
+  },
+  {
+   "id": "ws-17",
+   "title": "Introduction to imaging-based spatial transcriptomics analysis",
+   "presenters": [
+    "Dr Chin Wee Tan",
+    "Dr Aaron Kilgallon",
+    "Ms Melody Jin"
+   ],
+   "duration": "6 hours",
+   "audience": "This workshop will be relevant to anyone interested in analysing data from emerging high-resolution imaging-based spatial molecular technologies such as 10x Xenium, NanoString CosMx, and Vizgen MERSCOPE.",
+   "prereq": "Attendees will require a laptop with internet access and should have familiarity with R and/or python, some familiarity with Bioconductor and/or with deploying jupyter notebooks. Some basic knowledge on spatial transcriptomics technologies and the standard ste",
+   "capacity": "40",
+   "abstract": "This hands-on workshop provides a practical introduction to bioinformatics analysis of high-resolution spatial transcriptomics data, with a focus on extracting biologically meaningful signals from complex tissue environments. Using a representative spatial transcriptomics dataset, participants will work through key steps from data quality control to spatial differential expression and feature selection.\n\nParticipants will learn to:\n•\tPerform quality control and spatial normalisation (SpaNorm) of spatial transcriptomics data\n•\tConduct basic cell typing and clustering to characterise cellular populations and spatial organisation\n•\tIdentify spatially variable and differentially expressed features, including continuous spatial differential expression using spiDE\n•\tPerform feature selection using modern methods such as Stabl and traditional covariate-adjusted approaches, including linear elastic net models\n•\tIdentify spatially-aware marker genes and perform gene set testing with JazzPanda\n•\tInterpret spatial molecular patterns and integrate computational results to generate biological insights\n\nBy the end of the workshop, participants will have a practical computational workflow and the"
+  },
+  {
+   "id": "ws-19",
+   "title": "From Raw Reads to Cancer Insights: Hands-on Long-Read Sequencing Analysis",
+   "presenters": [
+    "Dr Chenkai Ma"
+   ],
+   "duration": "3 hours",
+   "audience": "This workshop is intended for bioinformaticians, computational biologists, cancer researchers, molecular scientists, clinical genomics researchers and postgraduate students who want to begin analysing long-read cancer sequencing data.\n\nIt will be particularly ",
+   "prereq": "Participants should have:\n\nBasic familiarity with genomic sequencing data and variant terminology.\nBasic experience using the Unix command line.\nIntroductory experience with either R or Python.\nA laptop with at least 8 GB RAM and approximately 10 GB of free st",
+   "capacity": "20",
+   "abstract": "Long-read sequencing technologies provide an increasingly accessible way to investigate cancer genomes beyond the capabilities of conventional short-read sequencing. Individual reads can span complex structural variants, repetitive regions and phased alleles while simultaneously capturing native DNA methylation. However, integrating these signals into a reproducible cancer analysis workflow remains challenging for many researchers.\n\nThis hands-on workshop will introduce participants to the analysis and interpretation of Oxford Nanopore long-read sequencing data in cancer genomics. Using a small, computationally manageable tumour–normal dataset, participants will follow the major stages of an analysis workflow, from assessing read and alignment quality to examining somatic single-nucleotide variants, structural variants, copy-number alterations, DNA methylation and haplotype-resolved events. Particular attention will be given to recognising common artefacts, evaluating read-level evidence and integrating different molecular signals to distinguish well-supported cancer-associated events from uncertain calls.\n\nPractical exercises will use command-line tools and lightweight R or Python"
+  },
+  {
+   "id": "ws-21",
+   "title": "Accelerate your Research with Cloud Computing on the ARDC Nectar Research Cloud",
+   "presenters": [
+    "Meirian Lovelace-Tozer"
+   ],
+   "duration": "1.5 hours",
+   "audience": "",
+   "prereq": "No cloud computing or coding experience is required to attend.",
+   "capacity": "30",
+   "abstract": "Don't let limited computing power slow down your research. The ARDC Nectar Research Cloud provides fast and scalable computing resources tailored specifically for research.\n\nWhether you need to run intensive data analyses and complex simulations, train AI and ML models, manage big data or collaborate seamlessly across institutions, Nectar gives you the computational power to scale up your work.\n\nJoin us for an interactive introduction to Nectar, where we'll cover:\n-\t What is cloud computing and how can it accelerate my research?\n-\t Real-world case studies powered by Nectar.\n-\t Guidance on accessing tutorials and ongoing support.\n-\t Live Q&A to answer your questions.\n\nNo cloud computing or coding experience is required to attend."
+  },
+  {
+   "id": "ws-22",
+   "title": "From Questions to Research Strategies: Scientific Brainstorming with AI Agents",
+   "presenters": [
+    "Mainá Bitar",
+    "Khoa Tran"
+   ],
+   "duration": "1.5 hours",
+   "audience": "Computational biologists of any level with an introductory understanding of Python will be more autonomous to advance on the hands-on part of the workshop.",
+   "prereq": "Participants are expected to know how to prepare a Python environment in their personal computers.\nPresenters can share in advance any requirements for the implementation of the Virtual Lab.\n\nEven if participants choose not to bring a personal computer, the wa",
+   "capacity": "20",
+   "abstract": "This hybrid walkthrough and hands-on workshop will introduce participants to the Virtual Lab, a recently developed multi-agent framework in which specialised AI agents collaborate through structured meetings to tackle scientific problems1. Instead of relying on a single assistant, the Virtual Lab orchestrates autonomous agents with complementary expertise that independently reason, critique one another's proposals, debate alternatives, and progressively design a research plan. Originally developed by James Zou and colleagues1, the framework provides a compelling example of how agentic AI can support scientific reasoning beyond conventional chatbot interactions.\nThis workshop will introduce the underlying architecture as a reusable framework for scientific brainstorming and research planning. Participants will learn how the Virtual Lab organises agents and how these run structured meetings, how prompts define individual expertise and responsibilities, how discussions are merged and framed as recommendations, and how iterative reasoning emerges from interactions between autonomous agents."
+  },
+  {
+   "id": "ws-23",
+   "title": "ELIXIR-GOBLET Train-the-Trainer: A Short-Course Introduction to Learner-Centred Training",
+   "presenters": [],
+   "duration": "6 hours",
+   "audience": "This workshop is addressed to scientists:\n- with some to little or no teaching experience,\n- who want to become a teacher or a better one, and\n- who believe teaching is - or may become - a relevant aspect of their professional development.",
+   "prereq": "This workshop is designed for scientists with some to little or no teaching experience. No prior background in pedagogy is required.",
+   "capacity": "25",
+   "abstract": "The ELIXIR-GOBLET Train-the-Trainer (TtT) course is the result of many years of collaboration among trainers, training coordinators, and training facilitators across the ELIXIR and GOBLET communities. Created in 2015, it has continued to evolve through the contributions, experience, and commitment of the ELIXIR-GOBLET TtT instructor community.\n\nThis 6-hour session offers a condensed introduction to the full 2-day TtT course, adapted for conference delegates who want a practical, evidence-based entry point into training design. Participants will explore key concepts from learning theory, instructional design, learner engagement, and feedback, and see how these concepts translate directly into everyday training situations.\n\nThe session supports a shift from a content-centred to a learner-centred approach to training. Rather than starting from what the trainer wants to present, participants will practise asking:\n\nWhat should learners be able to do by the end of the training?\nWhat learning experiences will help them get there?\nHow can we keep learners actively engaged?\nHow can we tell whether learning is actually happening?\nHow can feedback improve both learning and teaching?\n\nDelivere"
+  },
+  {
+   "id": "ws-24",
+   "title": "Predictive Functional Genomics: Live-Coding with AlphaGenome and Bioconductor",
+   "presenters": [
+    "Khoa Tran",
+    "Mainá Bitar"
+   ],
+   "duration": "1.5 hours",
+   "audience": "Computational Biologists with at least a basic understanding of the topic.",
+   "prereq": "Being familiar with basic programming and, ideally, Google Colab and/or Python notebooks.",
+   "capacity": "10",
+   "abstract": "Interpreting the functional consequences of genomic variants remains a central challenge in modern computational biology. This hands-on, 1.5-hour live-coding workshop introduces participants to AlphaGenome, a state-of-the-art deep learning model designed for sequence-to-function predictions. Attendees will explore how deep neural networks accurately forecast variant effects, gene expression, and regulatory dynamics directly from raw genomic sequence data.\n\nIn this fast-paced practical session, participants will execute live AlphaGenome queries to evaluate functional genomic variants across diverse regulatory contexts. To ensure maximum relevance for the BiocAsia community, the session focuses heavily on bridging Python-native deep learning frameworks with the R/Bioconductor ecosystem. Using packages such as reticulate, attendees will learn to seamlessly parse AlphaGenome’s prediction matrices directly into standard Bioconductor data containers, including GenomicRanges and SummarizedExperiment.\n\nBy linking deep learning predictions to downstream statistical analysis and publication-ready visualisations in R, this workshop equips bioinformaticians with a practical pipeline for varian"
+  }
+ ]
+}
