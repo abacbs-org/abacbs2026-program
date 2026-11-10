@@ -4,12 +4,12 @@
   "tagline": "A Festival of Bioinformatics",
   "dates": "16–20 November 2026",
   "venue": "Storey Hall (Building 16), RMIT University City Campus",
-  "address": "124 La Trobe St, Melbourne VIC 3000",
+  "address": "336–348 Swanston St, Melbourne VIC 3000",
   "hashtag": "#ABACBS2026",
   "timezone": "Australia/Melbourne",
   "email": "conference@abacbs.org",
   "site": "https://www.abacbs.org/2026",
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "note": "Provisional program — subject to change. Built from the official ABACBS 2026 combined program (PDF) and the program spreadsheet dated 17 Oct 2026.",
   "days": [
    {
@@ -80,14 +80,46 @@
   {
    "id": "mon-emcr",
    "day": "2026-11-16",
-   "start": "09:00",
+   "start": "08:30",
    "end": "17:00",
    "type": "satellite",
    "title": "ABACBS EMCR Funding Futures",
    "stream": "Satellite",
-   "room": "RMIT City Campus",
-   "desc": "EMCR Funding Futures event. Three $500 travel scholarships are available for postdocs — apply via the EMCR-2026 page.",
-   "link": "https://www.abacbs.org/abacbs-emcr-funding-futures"
+   "room": "Level 7, Seminar Rooms 1 & 2, Building 16 (336–348 Swanston St)",
+   "desc": "A full day of practical grant writing advice, investigator success stories, an interactive grant workshop, and team pitch presentations with awards. Three $500 travel scholarships are available for postdocs — apply via the EMCR 2026 page.",
+   "link": "https://www.abacbs.org/abacbs-emcr-funding-futures",
+   "notes": [
+    {
+     "label": "Registration:",
+     "text": "8:30–9:00am at Level 2 (ground floor). Allow time to register before heading up to Level 7. Main program starts at 9:00am."
+    },
+    {
+     "label": "Bring a laptop:",
+     "text": "You'll work with your team through the day to develop your grant pitch."
+    },
+    {
+     "label": "Venue:",
+     "text": "All sessions are in Level 7 Seminar Rooms 1 & 2 — opposite the lift."
+    },
+    {
+     "label": "Lunch meet-up:",
+     "text": "Informal career meet-up hosted by SBEI over lunch — connect with others in bioinformatics, computational biology and data science. Register separately."
+    },
+    {
+     "label": "Sponsor tables:",
+     "text": "On Level 5 during the breaks."
+    },
+    {
+     "label": "Getting there:",
+     "text": "Melbourne Central station is about a 2-minute walk; State Library station is also close. Trams: stop 7 (RMIT University) or stop 8 (Melbourne Central) on Swanston St. No visitor parking on campus — commercial car parks and metered street parking nearby."
+    }
+   ],
+   "links": [
+    {
+     "label": "SBEI lunch meet-up registration",
+     "url": "https://forms.gle/gVhT62cvJ6cQPPfQ6"
+    }
+   ]
   },
   {
    "id": "mon-welcome",

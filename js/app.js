@@ -183,10 +183,26 @@
       d.innerHTML = mark(ev.desc);
       main.appendChild(d);
     }
-    if (ev.link) {
-      var a = el('a', null, 'Event page →');
-      a.href = ev.link; a.rel = 'noopener'; a.target = '_blank';
-      var wrap = el('p', 'desc'); wrap.appendChild(a); main.appendChild(wrap);
+    if (ev.notes && ev.notes.length) {
+      var nl = el('ul', 'notes');
+      ev.notes.forEach(function (n) {
+        var li = el('li');
+        li.innerHTML = '<strong>' + mark(n.label) + '</strong> ' + mark(n.text);
+        nl.appendChild(li);
+      });
+      main.appendChild(nl);
+    }
+    var links = (ev.links || []).slice();
+    if (ev.link) links.unshift({ label: 'Event page', url: ev.link });
+    if (links.length) {
+      var wrap = el('p', 'desc');
+      links.forEach(function (l, i) {
+        if (i) wrap.appendChild(el('span', 'dot', ' · '));
+        var a = el('a', null, l.label + ' →');
+        a.href = l.url; a.rel = 'noopener'; a.target = '_blank';
+        wrap.appendChild(a);
+      });
+      main.appendChild(wrap);
     }
 
     head.appendChild(main);

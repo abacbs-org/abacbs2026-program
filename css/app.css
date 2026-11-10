@@ -253,3 +253,9 @@ mark{background:color-mix(in srgb, var(--blue) 28%, transparent);color:inherit;b
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .logo-wide{background:#fff;border-radius:12px;padding:12px}}
 
 [hidden]{display:none!important}
+
+/* Event detail notes (venue, what to bring, registration times, …) */
+.notes{margin:8px 0 0;padding:0;list-style:none}
+.notes li{position:relative;padding-left:14px;margin:4px 0;font-size:14px;line-height:1.45;color:var(--ink)}
+.notes li::before{content:"";position:absolute;left:3px;top:8px;width:5px;height:5px;border-radius:50%;background:var(--blue)}
+.notes li strong{font-weight:600}
