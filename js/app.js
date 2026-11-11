@@ -48,7 +48,7 @@
           t.end = next ? next.start : ev.end;
           ITEMS.push({
             id: t.id, kind: 'talk', day: ev.day, start: t.start, end: t.end,
-            title: t.title, speaker: t.speaker, affiliation: t.affiliation,
+            title: t.title || t.speaker, speaker: t.speaker, affiliation: t.affiliation,
             room: ev.room, stream: ev.stream, parent: ev
           });
         });
@@ -243,10 +243,15 @@
         var li = el('li', 'talk' + (picks.has(t.id) ? ' is-picked' : (opts.dimUnpicked ? ' is-dim' : '')));
         li.appendChild(el('div', 't-time', t.start));
         var body = el('div', 't-body');
-        var tt = el('p', 't-title'); tt.innerHTML = mark(t.title); body.appendChild(tt);
+        var tt = el('p', 't-title');
+        // Some satellite talks have no announced title yet — lead with the speaker instead.
+        tt.innerHTML = t.title ? mark(t.title) : '<span class="who">' + mark(t.speaker) + '</span>';
+        body.appendChild(tt);
         var tw = el('p', 't-who');
-        tw.innerHTML = '<span class="who">' + mark(t.speaker) + '</span>' +
-          (t.affiliation ? ' <span class="dot">·</span> ' + mark(t.affiliation) : '');
+        tw.innerHTML = t.title
+          ? '<span class="who">' + mark(t.speaker) + '</span>' +
+            (t.affiliation ? ' <span class="dot">·</span> ' + mark(t.affiliation) : '')
+          : mark(t.affiliation || '');
         body.appendChild(tw);
         if (picks.has(t.id)) {
           var cc = conflictsFor(t.id);

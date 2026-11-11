@@ -56,26 +56,449 @@
   {
    "id": "mon-sbei",
    "day": "2026-11-16",
-   "start": "08:50",
+   "start": "08:15",
    "end": "17:30",
    "type": "satellite",
    "title": "SBEI 2026 — Symposium on Bioinformatics and Engineered Intelligence",
-   "stream": "Satellite",
+   "stream": "SBEI",
    "room": "Lecture Theatre, Level 1, Building 16 (336–348 Swanston St)",
-   "desc": "Run by the ABACBS professional subcommittee, focused on GenAI across AgTech, Biotech and HealthTech. Registration from 8:15am, opening address 8:50am, close 5:30pm. Keynotes: Prof. Daniel MacArthur (Garvan / MCRI) and Prof. Michael Stumpf (University of Melbourne / Cell Bauhaus). Sessions: Population-Scale Bioinformatics (Lyn Griffiths, Jimmy Breen, Adam Heterick, Jeff Christiansen); Clinical Genomics in Practice (Simon Sadedin, Lynn Fink, Eva Chan, Claire Lillee); Applied & Environmental Bioinformatics (Mathew Lewsey, Clare Sloggett, Monica Nolan, Matthew Andrews); Bioinformatics Engineering (Allan Leung, James Bradley, Gregg Bass, Anna Quaglieri).",
-   "link": "https://www.abacbs.org/sbei-2026"
+   "desc": "Also billed as the APBC Symposium 2026. Four sessions across population-scale bioinformatics, clinical genomics, applied and environmental bioinformatics, and bioinformatics engineering. Draft program — speakers, topics and timings may change.",
+   "link": "https://www.abacbs.org/sbei-2026-program",
+   "notes": [
+    {
+     "label": "Registration:",
+     "text": "From 8:15am, with the opening and welcome at 8:50am."
+    },
+    {
+     "label": "Breaks:",
+     "text": "Morning tea 10:30–11:00, lunch 12:45–14:00, afternoon tea 15:30–16:00."
+    },
+    {
+     "label": "Keynotes:",
+     "text": "Daniel MacArthur (Centre for Population Genomics) at 9:00am and Michael Stumpf (CellBauHaus) at 2:00pm."
+    }
+   ]
+  },
+  {
+   "id": "sbei-open",
+   "day": "2026-11-16",
+   "start": "08:50",
+   "end": "09:00",
+   "type": "plenary",
+   "title": "SBEI opening & welcome",
+   "stream": "SBEI",
+   "room": "Lecture Theatre, Level 1, Building 16 (336–348 Swanston St)",
+   "speaker": "Chris Love",
+   "affiliation": "Senior Clinical Bioinformatician, Children’s Cancer Institute"
+  },
+  {
+   "id": "sbei-s1",
+   "day": "2026-11-16",
+   "start": "09:00",
+   "end": "10:30",
+   "type": "parallel",
+   "title": "SBEI 1. Population-Scale Bioinformatics",
+   "stream": "SBEI",
+   "room": "Lecture Theatre, Level 1, Building 16 (336–348 Swanston St)",
+   "chairs": "Belinda Cornes",
+   "desc": "Infrastructure, national initiatives and the Australian genomics landscape. Opens with a keynote from Daniel MacArthur (20 min + 5 min Q&A).",
+   "talks": [
+    {
+     "id": "sbei-s1-1",
+     "start": "09:00",
+     "speaker": "Daniel MacArthur",
+     "affiliation": "Director, Centre for Population Genomics, Garvan Institute of Medical Research & Murdoch Children’s Research Institute"
+    },
+    {
+     "id": "sbei-s1-2",
+     "start": "09:25",
+     "speaker": "Lyn Griffiths",
+     "affiliation": "Director, Centre for Genomics and Personalised Health, QUT"
+    },
+    {
+     "id": "sbei-s1-3",
+     "start": "09:40",
+     "speaker": "Jimmy Breen & Adam Heterick",
+     "affiliation": "Chief Data Scientist & Bioinformatics Officer, Black Ochre Data Labs"
+    },
+    {
+     "id": "sbei-s1-4",
+     "start": "09:55",
+     "speaker": "Jeff Christiansen",
+     "affiliation": "Director, Australian BioCommons"
+    },
+    {
+     "id": "sbei-s1-5",
+     "start": "10:10",
+     "speaker": "Q&A",
+     "affiliation": "20 min"
+    }
+   ]
+  },
+  {
+   "id": "sbei-s2",
+   "day": "2026-11-16",
+   "start": "11:00",
+   "end": "12:45",
+   "type": "parallel",
+   "title": "SBEI 2. Clinical Genomics in Practice",
+   "stream": "SBEI",
+   "room": "Lecture Theatre, Level 1, Building 16 (336–348 Swanston St)",
+   "chairs": "Roxane Legaie & Amit Kumar",
+   "desc": "Comprehensive genomic profiling, regulatory frameworks and clinical bottlenecks, closing with a 45-minute panel.",
+   "talks": [
+    {
+     "id": "sbei-s2-1",
+     "start": "11:00",
+     "speaker": "Simon Sadedin",
+     "affiliation": "Head of Clinical Bioinformatics, Victorian Clinical Genetics Service"
+    },
+    {
+     "id": "sbei-s2-2",
+     "start": "11:15",
+     "speaker": "Lynn Fink",
+     "affiliation": "Laboratory Director, LifeStrands Genomics"
+    },
+    {
+     "id": "sbei-s2-3",
+     "start": "11:30",
+     "speaker": "Eva Chan",
+     "affiliation": "Senior Clinical Bioinformatician, Hartwig Medical Foundation"
+    },
+    {
+     "id": "sbei-s2-4",
+     "start": "11:45",
+     "speaker": "Claire Lillee",
+     "affiliation": "Principal Accreditation Specialist, NATA"
+    },
+    {
+     "id": "sbei-s2-5",
+     "start": "12:00",
+     "speaker": "Q&A and panel discussion",
+     "affiliation": "45 min",
+     "title": "Bottlenecks in clinical bioinformatics"
+    }
+   ]
+  },
+  {
+   "id": "sbei-s3",
+   "day": "2026-11-16",
+   "start": "14:00",
+   "end": "15:30",
+   "type": "parallel",
+   "title": "SBEI 3. Applied & Environmental Bioinformatics",
+   "stream": "SBEI",
+   "room": "Lecture Theatre, Level 1, Building 16 (336–348 Swanston St)",
+   "chairs": "Anubhav Kaphle & Adele Barugahare",
+   "desc": "Environmental genomics, metagenomics, agri-bio, wastewater, microbiome and pathogen surveillance. Sponsored by AGRF. Opens with a keynote from Michael Stumpf (20 min + 5 min Q&A).",
+   "talks": [
+    {
+     "id": "sbei-s3-1",
+     "start": "14:00",
+     "speaker": "Michael Stumpf",
+     "affiliation": "Chief Scientific Officer / FAAS, CellBauHaus"
+    },
+    {
+     "id": "sbei-s3-2",
+     "start": "14:25",
+     "speaker": "Clare Sloggett",
+     "affiliation": "Lead Developer, AusTrakka National Pathogen Surveillance Platform"
+    },
+    {
+     "id": "sbei-s3-3",
+     "start": "14:40",
+     "speaker": "Monica Nolan",
+     "affiliation": "Director, Promoting Health4All",
+     "title": "Applications for wastewater surveillance for public health"
+    },
+    {
+     "id": "sbei-s3-4",
+     "start": "14:55",
+     "speaker": "Matthew Lewsey",
+     "affiliation": "Director, Australian Plant Phenomics Network / ARC Centre of Excellence in Plants for Space, La Trobe University"
+    },
+    {
+     "id": "sbei-s3-5",
+     "start": "15:10",
+     "speaker": "Matthew Andrews",
+     "affiliation": "Senior Bioinformatician, AGRF · Sponsor slot"
+    },
+    {
+     "id": "sbei-s3-6",
+     "start": "15:20",
+     "speaker": "Q&A",
+     "affiliation": "10 min"
+    }
+   ]
+  },
+  {
+   "id": "sbei-s4",
+   "day": "2026-11-16",
+   "start": "16:00",
+   "end": "17:15",
+   "type": "parallel",
+   "title": "SBEI 4. Bioinformatics Engineering",
+   "stream": "SBEI",
+   "room": "Lecture Theatre, Level 1, Building 16 (336–348 Swanston St)",
+   "chairs": "Mansi Aggarwal",
+   "desc": "Tools, pipelines, scalability and the future of bioinformatics infrastructure. Sponsored by Databricks.",
+   "talks": [
+    {
+     "id": "sbei-s4-1",
+     "start": "16:00",
+     "speaker": "Allan Leung",
+     "affiliation": "Solutions Architect, Databricks · Sponsor slot"
+    },
+    {
+     "id": "sbei-s4-2",
+     "start": "16:10",
+     "speaker": "James Bradley",
+     "affiliation": "Bioinformatics Data Engineer, Children’s Cancer Institute"
+    },
+    {
+     "id": "sbei-s4-3",
+     "start": "16:25",
+     "speaker": "Greg Bass",
+     "affiliation": "Senior Scientist in Translational Bioinformatics, CSL",
+     "title": "Beyond the model: integrating AI into production bioinformatics workflows"
+    },
+    {
+     "id": "sbei-s4-4",
+     "start": "16:40",
+     "speaker": "Anna Quaglieri",
+     "affiliation": "Senior Bioinformatics Data Scientist, Mass Dynamics"
+    },
+    {
+     "id": "sbei-s4-5",
+     "start": "16:55",
+     "speaker": "Q&A",
+     "affiliation": "20 min",
+     "title": "Limitations, gains and future challenges in adoption of AI in bioinformatics production workflows"
+    }
+   ]
+  },
+  {
+   "id": "sbei-close",
+   "day": "2026-11-16",
+   "start": "17:15",
+   "end": "17:30",
+   "type": "plenary",
+   "title": "SBEI closing session",
+   "stream": "SBEI",
+   "room": "Lecture Theatre, Level 1, Building 16 (336–348 Swanston St)",
+   "desc": "APBC update from Amit Kumar (10 min), then closing remarks from Chris Love (5 min). Event closes 5:30pm."
   },
   {
    "id": "mon-combine",
    "day": "2026-11-16",
-   "start": "09:00",
-   "end": "17:00",
+   "start": "08:00",
+   "end": "17:45",
    "type": "satellite",
    "title": "COMBINE Symposium 2026",
-   "stream": "Satellite",
+   "stream": "COMBINE",
    "room": "RMIT City Campus",
-   "desc": "Annual symposium of COMBINE, the Australian computational biology and bioinformatics student society. Student research talks, workshops and networking.",
-   "link": "https://www.combine.org.au/symp/symposium-2026/"
+   "desc": "Annual symposium of COMBINE, the Australian computational biology and bioinformatics student society — student research talks, a keynote, a career panel and posters. Preliminary program, subject to change.",
+   "link": "https://www.combine.org.au/symp/symposium-2026/",
+   "notes": [
+    {
+     "label": "Registration:",
+     "text": "8:00–9:00am, with the welcome at 9:00am."
+    },
+    {
+     "label": "Breaks:",
+     "text": "Morning tea 10:30–11:00, lunch 12:45–13:45, afternoon tea 15:30–16:15."
+    },
+    {
+     "label": "Posters & prizes:",
+     "text": "Poster session 16:15–17:15, then prizes and the COMBINE President's address 17:15–17:45."
+    }
+   ]
+  },
+  {
+   "id": "combine-welcome",
+   "day": "2026-11-16",
+   "start": "09:00",
+   "end": "09:15",
+   "type": "plenary",
+   "title": "COMBINE welcome",
+   "stream": "COMBINE",
+   "room": "RMIT City Campus"
+  },
+  {
+   "id": "combine-s1",
+   "day": "2026-11-16",
+   "start": "09:15",
+   "end": "10:15",
+   "type": "parallel",
+   "title": "COMBINE Session 1: Systems Biology & Genomics",
+   "stream": "COMBINE",
+   "room": "RMIT City Campus",
+   "desc": "Session start and end times are confirmed; the individual talk times below are evenly spread across the session, so treat them as approximate.",
+   "talks": [
+    {
+     "id": "combine-s1-1",
+     "start": "09:15",
+     "speaker": "Nicolo Fabila",
+     "affiliation": "University of Melbourne",
+     "title": "Pair-stratified machine learning nominates stable whole-blood markers of binge-eating severity in a small, matched cohort"
+    },
+    {
+     "id": "combine-s1-2",
+     "start": "09:30",
+     "speaker": "Marnie Petrucci",
+     "affiliation": "Curtin University",
+     "title": "Genetic insights into white matter hyperintensities using genome-wide analyses"
+    },
+    {
+     "id": "combine-s1-3",
+     "start": "09:45",
+     "speaker": "Yingyi Mei",
+     "affiliation": "Baker Heart and Diabetes Institute, La Trobe University",
+     "title": "Plasma proteomics enhances genetic risk prediction and biological understanding of venous thromboembolism"
+    },
+    {
+     "id": "combine-s1-4",
+     "start": "10:00",
+     "speaker": "Galen Pereira",
+     "affiliation": "SAiGENCI",
+     "title": "Interpreting cellular foundation models through gene attention graphs"
+    }
+   ]
+  },
+  {
+   "id": "combine-lightning",
+   "day": "2026-11-16",
+   "start": "10:15",
+   "end": "10:30",
+   "type": "lightning",
+   "title": "COMBINE lightning talks",
+   "stream": "COMBINE",
+   "room": "RMIT City Campus"
+  },
+  {
+   "id": "combine-keynote",
+   "day": "2026-11-16",
+   "start": "11:00",
+   "end": "11:45",
+   "type": "keynote",
+   "title": "COMBINE keynote",
+   "stream": "COMBINE",
+   "room": "RMIT City Campus",
+   "speaker": "Fabio Zanini",
+   "affiliation": "Group Leader, UNSW"
+  },
+  {
+   "id": "combine-s2",
+   "day": "2026-11-16",
+   "start": "11:45",
+   "end": "12:45",
+   "type": "parallel",
+   "title": "COMBINE Session 2: Microbial & Proteins",
+   "stream": "COMBINE",
+   "room": "RMIT City Campus",
+   "desc": "Session start and end times are confirmed; the individual talk times below are evenly spread across the session, so treat them as approximate.",
+   "talks": [
+    {
+     "id": "combine-s2-1",
+     "start": "11:45",
+     "speaker": "Ching Yin Wan",
+     "affiliation": "The University of Melbourne",
+     "title": "GenomeProt: User-friendly proteogenomics for canonical and non-canonical proteoform characterisation"
+    },
+    {
+     "id": "combine-s2-2",
+     "start": "12:00",
+     "speaker": "Megan Spralja",
+     "affiliation": "The Peter Doherty Institute for Infection and Immunity",
+     "title": "Beyond the bacteriome: Longitudinal viromics of the cystic fibrosis lung phageome"
+    },
+    {
+     "id": "combine-s2-3",
+     "start": "12:15",
+     "speaker": "Jing Teng",
+     "affiliation": "Flinders University",
+     "title": "Benchmarking deep learning for phage morphotype classification from TEM images"
+    },
+    {
+     "id": "combine-s2-4",
+     "start": "12:30",
+     "speaker": "Kiran Gnana",
+     "affiliation": "QIMR",
+     "title": "NeoPepFlow: A nextflow pipeline for end-to-end tumour antigen discovery for short- and long-read sequencing platforms"
+    }
+   ]
+  },
+  {
+   "id": "combine-panel",
+   "day": "2026-11-16",
+   "start": "13:45",
+   "end": "14:30",
+   "type": "plenary",
+   "title": "COMBINE career panel",
+   "stream": "COMBINE",
+   "room": "RMIT City Campus",
+   "desc": "Panel: Simon Sadedin, Saritha Kodikara, Chelsea Mayoh and Sridevi Sureshkumar."
+  },
+  {
+   "id": "combine-s3",
+   "day": "2026-11-16",
+   "start": "14:30",
+   "end": "15:30",
+   "type": "parallel",
+   "title": "COMBINE Session 3: Single-Cell & Spatial Transcriptomics",
+   "stream": "COMBINE",
+   "room": "RMIT City Campus",
+   "desc": "Session start and end times are confirmed; the individual talk times below are evenly spread across the session, so treat them as approximate.",
+   "talks": [
+    {
+     "id": "combine-s3-1",
+     "start": "14:30",
+     "speaker": "Patrick Crock",
+     "affiliation": "St Vincent's Institute; University of Melbourne",
+     "title": "Segmentation-free identification of tissue domains in image-based spatial transcriptomics"
+    },
+    {
+     "id": "combine-s3-2",
+     "start": "14:45",
+     "speaker": "Yang Xu",
+     "affiliation": "WEHI",
+     "title": "Systematic benchmarking of spatial transcriptomics analysis workflows using SpaBench"
+    },
+    {
+     "id": "combine-s3-3",
+     "start": "15:00",
+     "speaker": "Sirui Weng",
+     "affiliation": "Peter MacCallum Cancer Centre",
+     "title": "Recurrent intra-tumour heterogeneity is a hallmark of metastatic prostate cancer"
+    },
+    {
+     "id": "combine-s3-4",
+     "start": "15:15",
+     "speaker": "Shreya Rajesh Rao",
+     "affiliation": "Sydney Precision Data Science Centre",
+     "title": "Propagating annotation uncertainty through downstream spatial transcriptomics analysis"
+    }
+   ]
+  },
+  {
+   "id": "combine-posters",
+   "day": "2026-11-16",
+   "start": "16:15",
+   "end": "17:15",
+   "type": "poster",
+   "title": "COMBINE poster session",
+   "stream": "COMBINE",
+   "room": "RMIT City Campus"
+  },
+  {
+   "id": "combine-prizes",
+   "day": "2026-11-16",
+   "start": "17:15",
+   "end": "17:45",
+   "type": "plenary",
+   "title": "Prizes and COMBINE President address",
+   "stream": "COMBINE",
+   "room": "RMIT City Campus"
   },
   {
    "id": "mon-emcr",
