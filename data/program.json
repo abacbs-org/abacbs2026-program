@@ -47,7 +47,7 @@
    "getting_here": "Trains: Melbourne Central or State Library stations. Trams: Swanston St stop 7/8, La Trobe St stop 6 (Free Tram Zone). No conference parking — public transport recommended.",
    "registration_desk": "Level 2, immediately upon entering the building. ABACBS volunteers welcome you at the Swanston Street entrance.",
    "posters": "Back of Storey Hall Auditorium (L5) and the Green Brain Room (L7). Odd numbers at morning tea, even numbers at afternoon tea (Tue & Wed). A0 portrait.",
-   "social": "Official hashtag #ABACBS2026. Primary platform is BlueSky (@abacbs.bsky.social); there is also the ABACBS Slack.",
+   "social": "Official hashtag #ABACBS2026, and #COMBINE2026 for the COMBINE symposium. Primary platform is BlueSky (@abacbs.bsky.social); there is also the ABACBS Slack.",
    "access": "Venue is wheelchair accessible with lifts. Smoking and vaping are not permitted anywhere on RMIT campus. Accessibility or carer needs: conference@abacbs.org.",
    "code_of_conduct": "https://www.abacbs.org/code-of-conduct-26"
   }
@@ -296,7 +296,7 @@
    "type": "satellite",
    "title": "COMBINE Symposium 2026",
    "stream": "COMBINE",
-   "room": "RMIT City Campus",
+   "room": "Storey Hall Auditorium (L5)",
    "desc": "Annual symposium of COMBINE, the Australian computational biology and bioinformatics student society — student research talks, a keynote, a career panel and posters. Preliminary program, subject to change.",
    "link": "https://www.combine.org.au/symp/symposium-2026/",
    "notes": [
@@ -305,12 +305,20 @@
      "text": "8:00–9:00am, with the welcome at 9:00am."
     },
     {
+     "label": "Venue:",
+     "text": "Every COMBINE session, including the posters, is in the Storey Hall Auditorium on Level 5."
+    },
+    {
      "label": "Breaks:",
      "text": "Morning tea 10:30–11:00, lunch 12:45–13:45, afternoon tea 15:30–16:15."
     },
     {
      "label": "Posters & prizes:",
      "text": "Poster session 16:15–17:15, then prizes and the COMBINE President's address 17:15–17:45."
+    },
+    {
+     "label": "Hashtag:",
+     "text": "#COMBINE2026"
     }
    ]
   },
@@ -322,7 +330,8 @@
    "type": "plenary",
    "title": "COMBINE welcome",
    "stream": "COMBINE",
-   "room": "RMIT City Campus"
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Michelle Meier & Naima Vahab"
   },
   {
    "id": "combine-s1",
@@ -332,7 +341,8 @@
    "type": "parallel",
    "title": "COMBINE Session 1: Systems Biology & Genomics",
    "stream": "COMBINE",
-   "room": "RMIT City Campus",
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Caitlin Page & Aashish Bhandari",
    "desc": "Session start and end times are confirmed; the individual talk times below are evenly spread across the session, so treat them as approximate.",
    "talks": [
     {
@@ -373,7 +383,8 @@
    "type": "lightning",
    "title": "COMBINE lightning talks",
    "stream": "COMBINE",
-   "room": "RMIT City Campus"
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Yen-Kai Chen"
   },
   {
    "id": "combine-keynote",
@@ -383,7 +394,8 @@
    "type": "keynote",
    "title": "COMBINE keynote",
    "stream": "COMBINE",
-   "room": "RMIT City Campus",
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Zunair Khurram",
    "speaker": "Fabio Zanini",
    "affiliation": "Group Leader, UNSW"
   },
@@ -395,7 +407,8 @@
    "type": "parallel",
    "title": "COMBINE Session 2: Microbial & Proteins",
    "stream": "COMBINE",
-   "room": "RMIT City Campus",
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Suet Li Hooi & Inam ul haq azad",
    "desc": "Session start and end times are confirmed; the individual talk times below are evenly spread across the session, so treat them as approximate.",
    "talks": [
     {
@@ -436,7 +449,8 @@
    "type": "plenary",
    "title": "COMBINE career panel",
    "stream": "COMBINE",
-   "room": "RMIT City Campus",
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Julia Broadbent & Claudio Díaz García",
    "desc": "Panel: Simon Sadedin, Saritha Kodikara, Chelsea Mayoh and Sridevi Sureshkumar."
   },
   {
@@ -447,7 +461,8 @@
    "type": "parallel",
    "title": "COMBINE Session 3: Single-Cell & Spatial Transcriptomics",
    "stream": "COMBINE",
-   "room": "RMIT City Campus",
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Neha & James Comben",
    "desc": "Session start and end times are confirmed; the individual talk times below are evenly spread across the session, so treat them as approximate.",
    "talks": [
     {
@@ -488,7 +503,7 @@
    "type": "poster",
    "title": "COMBINE poster session",
    "stream": "COMBINE",
-   "room": "RMIT City Campus"
+   "room": "Storey Hall Auditorium (L5)"
   },
   {
    "id": "combine-prizes",
@@ -498,7 +513,8 @@
    "type": "plenary",
    "title": "Prizes and COMBINE President address",
    "stream": "COMBINE",
-   "room": "RMIT City Campus"
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Caitlin Page, Naima Vahab & Michelle Meier"
   },
   {
    "id": "mon-emcr",
@@ -553,7 +569,7 @@
    "title": "Welcome Reception",
    "stream": "Social",
    "room": "Storey Hall",
-   "desc": "ABACBS 2026 welcome drinks."
+   "desc": "ABACBS 2026 welcome drinks. Trivia starts at 6:30pm."
   },
   {
    "id": "tue-wtc",

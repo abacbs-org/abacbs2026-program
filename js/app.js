@@ -172,7 +172,10 @@
     var line2 = [];
     line2.push(ev.start + '–' + ev.end);
     if (ev.room) line2.push(mark(ev.room));
-    if (ev.chairs) line2.push('Chairs: ' + mark(ev.chairs));
+    if (ev.chairs) {
+      var many = /&|,| and /i.test(ev.chairs);
+      line2.push((many ? 'Chairs: ' : 'Chair: ') + mark(ev.chairs));
+    }
     bits.push(line2.join(' <span class="dot">·</span> '));
     var meta = el('p', 'meta');
     meta.innerHTML = bits.join('<br>');
