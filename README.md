@@ -83,6 +83,9 @@ Everything the app shows lives in `data/program.json`:
 
 Edit the JSON, then **bump `VERSION` in `sw.js`** (e.g. `abacbs2026-v2`) so
 installed copies pick up the new files instead of serving the cached ones.
+The new version installs and takes over on the next visit — the precache
+uses `cache: 'reload'`, so it fetches from the network rather than reusing
+whatever the browser still holds from the previous version.
 
 Pick IDs are stable strings (`tue-transcriptomics-3`, `poster-Tue-42`,
 `wed-kn2`). Keep them stable across edits or people's saved programs will
