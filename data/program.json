@@ -520,7 +520,7 @@
    "id": "mon-emcr",
    "day": "2026-11-16",
    "start": "08:30",
-   "end": "17:00",
+   "end": "17:30",
    "type": "satellite",
    "title": "ABACBS EMCR Funding Futures",
    "stream": "EMCR",
@@ -530,7 +530,7 @@
    "notes": [
     {
      "label": "Registration:",
-     "text": "8:30–9:00am at Level 2 (ground floor). Allow time to register before heading up to Level 7. Main program starts at 9:00am."
+     "text": "8:30–9:00am at Level 2 (ground floor). Allow time to register before heading up to Level 7. Main program starts at 9:00am; the day closes after the team pitches at 5:30pm."
     },
     {
      "label": "Bring a laptop:",
@@ -559,6 +559,114 @@
      "url": "https://forms.gle/gVhT62cvJ6cQPPfQ6"
     }
    ]
+  },
+  {
+   "id": "emcr-s1",
+   "day": "2026-11-16",
+   "start": "09:45",
+   "end": "10:30",
+   "type": "plenary",
+   "title": "EMCR Session 1: NHMRC Investigator Fellows — Success Stories",
+   "stream": "EMCR",
+   "room": "Level 7, Seminar Rooms 1 & 2, Building 16 (336–348 Swanston St)",
+   "chairs": "Pedro Baldoni & Sagrika Chugh",
+   "people": {
+    "label": "Speakers",
+    "list": [
+     {
+      "name": "Dr Quentin Gouil",
+      "affiliation": "Olivia Newton-John Cancer Research Institute"
+     },
+     {
+      "name": "A/Prof Davis McCarthy",
+      "affiliation": "St Vincent's Institute of Medical Research"
+     }
+    ]
+   }
+  },
+  {
+   "id": "emcr-s2",
+   "day": "2026-11-16",
+   "start": "11:00",
+   "end": "12:00",
+   "type": "plenary",
+   "title": "EMCR Session 2: Funding Opportunities & Grant Writing Tips",
+   "stream": "EMCR",
+   "room": "Level 7, Seminar Rooms 1 & 2, Building 16 (336–348 Swanston St)",
+   "chairs": "Rafael Peres & Manoharan Kumar",
+   "people": {
+    "label": "Speakers",
+    "list": [
+     {
+      "name": "Prof Alicia Oshlack",
+      "affiliation": "Peter MacCallum Cancer Centre"
+     },
+     {
+      "name": "Dr Dezerae Cox",
+      "affiliation": "University of Wollongong"
+     },
+     {
+      "name": "Prof Matt Field",
+      "affiliation": "James Cook University"
+     }
+    ]
+   }
+  },
+  {
+   "id": "emcr-s3",
+   "day": "2026-11-16",
+   "start": "14:00",
+   "end": "14:45",
+   "type": "plenary",
+   "title": "EMCR Session 3: Meet Your Reviewer Panel & Career Pathways",
+   "stream": "EMCR",
+   "room": "Level 7, Seminar Rooms 1 & 2, Building 16 (336–348 Swanston St)",
+   "chairs": "Alex de Sá & Katrina Mitchell",
+   "people": {
+    "label": "Panellists",
+    "list": [
+     {
+      "name": "Prof Douglas Pires",
+      "affiliation": "Xyme"
+     },
+     {
+      "name": "Prof Jean Yang",
+      "affiliation": "University of Sydney"
+     },
+     {
+      "name": "Nicholas Matigian",
+      "affiliation": "QCIF"
+     }
+    ]
+   }
+  },
+  {
+   "id": "emcr-pitch",
+   "day": "2026-11-16",
+   "start": "16:30",
+   "end": "17:30",
+   "type": "plenary",
+   "title": "EMCR The Pitch: group presentations",
+   "stream": "EMCR",
+   "room": "Level 7, Seminar Rooms 1 & 2, Building 16 (336–348 Swanston St)",
+   "desc": "Teams present the grant pitch they have developed through the day.",
+   "people": {
+    "label": "Judges",
+    "list": [
+     {
+      "name": "Prof Douglas Pires",
+      "affiliation": "Xyme"
+     },
+     {
+      "name": "Prof Jean Yang",
+      "affiliation": "University of Sydney"
+     },
+     {
+      "name": "Nicholas Matigian",
+      "affiliation": "QCIF"
+     }
+    ]
+   }
   },
   {
    "id": "mon-welcome",

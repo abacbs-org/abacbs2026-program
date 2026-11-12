@@ -186,6 +186,18 @@
       d.innerHTML = mark(ev.desc);
       main.appendChild(d);
     }
+    // Speakers/panellists/judges listed without individual start times.
+    if (ev.people && ev.people.list && ev.people.list.length) {
+      main.appendChild(el('p', 'people-h', ev.people.label));
+      var pl = el('ul', 'notes');
+      ev.people.list.forEach(function (pr) {
+        var li = el('li');
+        li.innerHTML = '<strong>' + mark(pr.name) + '</strong>' +
+          (pr.affiliation ? ' <span class="dot">·</span> ' + mark(pr.affiliation) : '');
+        pl.appendChild(li);
+      });
+      main.appendChild(pl);
+    }
     if (ev.notes && ev.notes.length) {
       var nl = el('ul', 'notes');
       ev.notes.forEach(function (n) {

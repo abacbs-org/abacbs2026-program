@@ -259,3 +259,4 @@ mark{background:color-mix(in srgb, var(--blue) 28%, transparent);color:inherit;b
 .notes li{position:relative;padding-left:14px;margin:4px 0;font-size:14px;line-height:1.45;color:var(--ink)}
 .notes li::before{content:"";position:absolute;left:3px;top:8px;width:5px;height:5px;border-radius:50%;background:var(--blue)}
 .notes li strong{font-weight:600}
+.people-h{margin:10px 0 2px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
