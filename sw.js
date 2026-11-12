@@ -1,5 +1,5 @@
 /* ABACBS 2026 — offline cache */
-var VERSION = 'abacbs2026-v7';
+var VERSION = 'abacbs2026-v8';
 var ASSETS = [
   './', './index.html', './css/app.css', './js/app.js',
   './data/program.json', './manifest.webmanifest',
@@ -9,8 +9,12 @@ var ASSETS = [
 
 self.addEventListener('install', function (e) {
   e.waitUntil(caches.open(VERSION).then(function (c) {
+    // `cache: 'reload'` bypasses the HTTP cache, so a new version never
+    // precaches the files the browser happens to be holding from the old one.
     return Promise.all(ASSETS.map(function (u) {
-      return c.add(u).catch(function () {});
+      return c.add(new Request(u, { cache: 'reload' })).catch(function () {
+        return c.add(u).catch(function () {});
+      });
     }));
   }).then(function () { return self.skipWaiting(); }));
 });
