@@ -9,7 +9,7 @@
   "timezone": "Australia/Melbourne",
   "email": "conference@abacbs.org",
   "site": "https://www.abacbs.org/2026",
-  "updated": "2026-11-11",
+  "updated": "2026-11-13",
   "note": "Provisional program — subject to change. Built from the official ABACBS 2026 combined program (PDF) and the program spreadsheet dated 17 Oct 2026.",
   "days": [
    {
@@ -523,7 +523,7 @@
    "end": "17:00",
    "type": "satellite",
    "title": "ABACBS EMCR Funding Futures",
-   "stream": "Satellite",
+   "stream": "EMCR",
    "room": "Level 7, Seminar Rooms 1 & 2, Building 16 (336–348 Swanston St)",
    "desc": "A full day of practical grant writing advice, investigator success stories, an interactive grant workshop, and team pitch presentations with awards. Three $500 travel scholarships are available for postdocs — apply via the EMCR 2026 page.",
    "link": "https://www.abacbs.org/abacbs-emcr-funding-futures",
