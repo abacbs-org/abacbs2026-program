@@ -15,7 +15,7 @@ No build step, no framework, no backend. Plain HTML/CSS/JS plus one JSON file.
 - **My program** — ☆ anything (a talk, a poster, a keynote, the dinner). Saved in
   `localStorage` on that device. Overlapping picks are flagged, both in the list
   and on the item itself.
-- **Posters** — all 190 posters (95 Tue + 95 Wed), searchable by number, presenter
+- **Posters** — all 191 posters (96 Tue + 95 Wed), searchable by number, presenter
   or title, with the odd/even morning- vs afternoon-tea split.
 - **Info** — venue, transport, registration desk, poster logistics, accessibility,
   social, and the 21 workshop abstracts.
@@ -93,11 +93,11 @@ lose those items.
 
 ## Where the data came from
 
-Built from the official ABACBS 2026 combined program PDF and the program
-spreadsheet dated 17 Oct 2026, plus the satellite/workshop pages on
-abacbs.org. Where the PDF and the spreadsheet disagreed (talk order in the
-Women's Health session, two late title changes), the PDF was treated as the
-newer source. The program is provisional and subject to change — the footer
+Built from `ABACBS2026_Program_FINAL.pdf`, plus the satellite/workshop pages
+on abacbs.org and corrections from the COMBINE, SBEI and EMCR organisers.
+The final PDF supersedes the earlier combined program PDF and the 17 Oct 2026
+spreadsheet; where they disagreed (the Tuesday lightning running order, a
+twelfth presenting slot, one poster added as Tue 96), the final PDF won. The program is provisional and subject to change — the footer
 and the Info tab both say so and link back to abacbs.org/2026.
 
 ## Credits

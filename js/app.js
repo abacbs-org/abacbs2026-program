@@ -436,7 +436,9 @@
       var b = el('button', 'day');
       b.type = 'button';
       b.setAttribute('aria-pressed', state.posterDay === d[0] ? 'true' : 'false');
-      b.innerHTML = '<b>' + d[1] + '</b><span>95 posters</span>';
+      // Counted from the data — the two days are not always the same size.
+      var n = DATA.posters.filter(function (p) { return p.day === d[0]; }).length;
+      b.innerHTML = '<b>' + d[1] + '</b><span>' + n + ' posters</span>';
       b.addEventListener('click', function () { state.posterDay = d[0]; render(); });
       switcher.appendChild(b);
     });

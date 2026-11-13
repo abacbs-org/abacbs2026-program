@@ -695,7 +695,8 @@
    "type": "plenary",
    "title": "Welcome to Country & conference opening",
    "stream": "Plenary",
-   "room": "Storey Hall Auditorium (L5)"
+   "room": "Storey Hall Auditorium (L5)",
+   "chairs": "Sonika Tyagi"
   },
   {
    "id": "tue-kn1",
@@ -720,7 +721,7 @@
    "title": "Lightning talks",
    "stream": "Lightning",
    "room": "Storey Hall Auditorium (L5)",
-   "chairs": "Katherine Huang & Emily Choi",
+   "chairs": "Katherine Huang & Emily Zhou",
    "desc": "Twelve rapid-fire talks in presenting order. Vote for your favourite in the People’s Choice award and catch the speakers at their posters.",
    "items": [
     {
@@ -755,33 +756,33 @@
     },
     {
      "order": 7,
-     "speaker": "Julia R. Broadbent",
+     "speaker": "Julia Broadbent",
      "title": "A standardised functional genomics workflow for rare disease diagnostic proteomics"
     },
     {
      "order": 8,
-     "speaker": "Afeefa Zainab",
-     "title": "A Higher-Order Spatial Graph Model Inferring Directional Cell-Type Influence for Spatial Transcriptomics"
-    },
-    {
-     "order": 9,
      "speaker": "Patrick Crock",
      "title": "Segmentation-free identification of tissue domains in image-based spatial transcriptomics."
     },
     {
-     "order": 10,
+     "order": 9,
      "speaker": "Joseph Holmes",
      "title": "A Computational Framework for Integrating Alternative Sequencing Platforms with Biobank Genomic Data"
     },
     {
-     "order": 11,
+     "order": 10,
      "speaker": "Michael Harper",
      "title": "Building a more representative Australian population genomic resource"
     },
     {
-     "order": 12,
+     "order": 11,
      "speaker": "Yingyi Mei",
      "title": "Plasma proteomics enhances genetic risk prediction and biological understanding of venous thromboembolism"
+    },
+    {
+     "order": 12,
+     "speaker": "Afeefa Zainab",
+     "title": "A Higher-Order Spatial Graph Model Inferring Directional Cell-Type Influence for Spatial Transcriptomics"
     }
    ]
   },
@@ -1172,7 +1173,7 @@
    "title": "Lightning talks",
    "stream": "Lightning",
    "room": "Storey Hall Auditorium (L5)",
-   "chairs": "Katherine Huang & Emily Choi",
+   "chairs": "Katherine Huang & Emily Zhou",
    "desc": "Twelve rapid-fire talks in presenting order. Vote for your favourite in the People’s Choice award and catch the speakers at their posters.",
    "items": [
     {
@@ -1268,7 +1269,7 @@
     {
      "id": "wed-genomic-medicine-2",
      "start": "11:25",
-     "title": "Exploring archetypes in type 2 diabetes in Aboriginal South Australians",
+     "title": "Exploring archetypes in type 2 diabetes in Aboriginal South Australians – illuminating biologically distinct risk processes in a heterogeneous disease",
      "speaker": "Dr Liza Kretzschmar",
      "affiliation": "The Kids Research Institute Australia"
     },
@@ -1430,7 +1431,7 @@
     {
      "id": "wed-womens-health-4",
      "start": "14:30",
-     "title": "Time Since Last Childbirth Predicts Survival in Women with Germline Pathogenic Varia﻿nts",
+     "title": "Time Since Last Childbirth Predicts Survival in Women with Germline Pathogenic Variants",
      "speaker": "Dr Luis Lara Gonzalez",
      "affiliation": "Peter MacCallum Cancer Centre"
     },
@@ -1696,7 +1697,7 @@
     {
      "id": "thu-structural-5",
      "start": "10:10",
-     "title": "Bioinformatics-Guided Design of Site-Directed Immobilization Interfaces in a Bacterial Mulcopper Oxidase",
+     "title": "Bioinformatics-Guided Design of Site-Directed Immobilization Interfaces in a Bacterial Multicopper Oxidase",
      "speaker": "Jing Zhang",
      "affiliation": "University of Auckland"
     },
@@ -2362,6 +2363,12 @@
    "number": 95,
    "presenter": "Tsend-Ayush",
    "title": "Paired Tumor–Normal Targeted Sequencing Reveals Variant Landscapes in Mongolian Colorectal Cancer"
+  },
+  {
+   "day": "Tue",
+   "number": 96,
+   "presenter": "Jia Wei Tan",
+   "title": "Benchmarking Long-read RNA-sequencing Protocols for Fusion Detection"
   },
   {
    "day": "Wed",
