@@ -19,6 +19,9 @@
    "text": "The conference feedback form is open. It takes a couple of minutes and it shapes ABACBS 2027.",
    "cta": "Open the feedback form"
   },
+  "analytics": {
+   "goatcounter": ""
+  },
   "days": [
    {
     "date": "2026-11-16",

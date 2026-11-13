@@ -526,6 +526,19 @@
       '<a href="mailto:' + m.email + '">' + m.email + '</a></p>');
     card('Social', '<p>' + esc(m.info.social) + '</p>');
 
+    var gc = ((m.analytics || {}).goatcounter || '').trim();
+    card('Your data',
+      '<p>Your starred sessions, your theme and anything you hide are stored on this ' +
+      'device only. Nothing you tap here is sent anywhere, and there is no account ' +
+      'and no login.</p>' +
+      (gc
+        ? '<p>We count visits with <a href="https://www.goatcounter.com/" rel="noopener" ' +
+          'target="_blank">GoatCounter</a>, so the committee knows roughly how many people ' +
+          'used the program. It sets no cookies, stores no identifiers, and cannot tell ' +
+          'one attendee from another. If your browser sends “Do Not Track”, it is not loaded ' +
+          'at all.</p>'
+        : '<p>No analytics, no cookies, no third-party scripts.</p>'));
+
     var wsHtml = '<p>Workshops run Thursday afternoon and Friday at RMIT City Campus, alongside the BiocAsia Bioconductor workshops. ' +
       'Times are subject to change — the final grid is on the ' +
       '<a href="https://www.abacbs.org/workshops-2026-call" rel="noopener" target="_blank">workshops page</a>. ' +
@@ -772,6 +785,30 @@
     });
   }
 
+  /* ---------- analytics ---------- */
+  // GoatCounter: a visit count, nothing else. No cookies, no storage, no IDs.
+  // Off unless meta.analytics.goatcounter holds a site code, so a fork or a
+  // local copy never reports to someone else's dashboard.
+  function initAnalytics() {
+    var a = DATA.meta.analytics || {};
+    var code = (a.goatcounter || '').trim();
+    if (!code) return;
+    // Honour Do Not Track, and skip local/preview copies.
+    var dnt = navigator.doNotTrack === '1' || window.doNotTrack === '1' ||
+      navigator.msDoNotTrack === '1';
+    var local = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname) ||
+      location.protocol === 'file:';
+    if (dnt || local) return;
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://gc.zgo.at/count.js';
+    s.setAttribute('data-goatcounter', 'https://' + code + '.goatcounter.com/count');
+    // Count the app as one page: the tabs are views of the same program,
+    // and per-tab paths would make the dashboard read like attendee tracking.
+    s.setAttribute('data-goatcounter-settings', JSON.stringify({ path: '/' }));
+    document.head.appendChild(s);
+  }
+
   fetch('data/program.json', { cache: 'no-cache' })
     .then(function (r) { return r.json(); })
     .then(function (d) {
@@ -782,6 +819,7 @@
       initTheme();
       wire();
       render();
+      initAnalytics();
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('sw.js').catch(function () {});
       }

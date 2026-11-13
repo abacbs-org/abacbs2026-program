@@ -91,6 +91,25 @@ Pick IDs are stable strings (`tue-transcriptomics-3`, `poster-Tue-42`,
 `wed-kn2`). Keep them stable across edits or people's saved programs will
 lose those items.
 
+## Visitor counts (optional)
+
+Off by default. To turn it on, register the Pages URL at
+[goatcounter.com](https://www.goatcounter.com/) (free for non-commercial use),
+then put the site code in `data/program.json`:
+
+```json
+"analytics": { "goatcounter": "your-code-here" }
+```
+
+`https://your-code-here.goatcounter.com` is then the dashboard. The script is
+only added when that string is non-empty, so forks and local copies never
+report anywhere. It is skipped on `localhost` and when the browser sends
+`Do Not Track`, it sets no cookies and stores no identifiers, and every visit
+is counted against `/` rather than a per-tab path — the Info tab says all of
+this under **Your data**. Bear in mind the app is offline-first, so an
+installed copy opened without signal may not be counted at all: treat the
+number as a floor.
+
 ## Where the data came from
 
 Built from `ABACBS2026_Program_FINAL.pdf`, plus the satellite/workshop pages
