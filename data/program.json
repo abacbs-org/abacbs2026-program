@@ -1541,12 +1541,20 @@
    "start": "16:05",
    "end": "16:45",
    "type": "plenary",
-   "title": "Best COMBINE talk · Best EMCR talk",
+   "title": "Best COMBINE & Best EMCR talks",
    "stream": "Plenary",
    "room": "Storey Hall Auditorium (L5)",
    "chairs": "Feargal Ryan",
-   "speaker": "Dr Clara Jiang (EMCR)",
-   "affiliation": "University of Queensland"
+   "notes": [
+    {
+     "label": "Best EMCR talk:",
+     "text": "Dr Clara Jiang · University of Queensland"
+    },
+    {
+     "label": "Best COMBINE talk:",
+     "text": "Speaker to be announced"
+    }
+   ]
   },
   {
    "id": "wed-kn2",
