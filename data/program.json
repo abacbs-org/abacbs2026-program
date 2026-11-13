@@ -11,6 +11,14 @@
   "site": "https://www.abacbs.org/2026",
   "updated": "2026-11-13",
   "note": "Provisional program — subject to change. Built from the official ABACBS 2026 combined program (PDF) and the program spreadsheet dated 17 Oct 2026.",
+  "feedback": {
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSf80zt0mK4WpUUs1BZmBSVcaEsSslckNQWS7jFIexTHeO1ZQw/viewform",
+   "from": "2026-11-19T11:55",
+   "until": "2026-12-07T23:59",
+   "title": "Tell us how it went",
+   "text": "The conference feedback form is open. It takes a couple of minutes and it shapes ABACBS 2027.",
+   "cta": "Open the feedback form"
+  },
   "days": [
    {
     "date": "2026-11-16",

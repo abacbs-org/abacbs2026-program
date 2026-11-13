@@ -4,6 +4,7 @@
 
   var STORE = 'abacbs2026.picks.v1';
   var THEME = 'abacbs2026.theme';
+  var FBSTORE = 'abacbs2026.feedback.dismissed';
   var DATA = null;
   var picks = new Set();
   var state = { view: 'program', day: null, streams: new Set(), q: '', posterDay: 'Tue' };
@@ -496,6 +497,15 @@
       return c;
     }
 
+    // Only once the form is open — a dead link before then is worse than no link.
+    var fb = feedbackOpen();
+    if (fb) {
+      card(fb.title || 'Feedback',
+        '<p>' + esc(fb.text || '') + '</p>' +
+        '<p><a class="fb-cta" href="' + esc(fb.url) + '" rel="noopener" target="_blank">' +
+        esc(fb.cta || 'Open the feedback form') + '</a></p>');
+    }
+
     card('Install this on your phone',
       '<p>This page works as an app: it opens full-screen from your home screen and keeps working without signal.</p>' +
       '<p><strong>iPhone / iPad (Safari):</strong> tap the <em>Share</em> button → <em>Add to Home Screen</em> → <em>Add</em>.</p>' +
@@ -626,6 +636,49 @@
     }
   }
 
+  /* ---------- feedback ---------- */
+  // Local wall-clock "YYYY-MM-DDTHH:MM" — the window is in the venue's own time,
+  // and `new Date("...T...")` without a zone is already parsed as local time.
+  function feedbackOpen() {
+    var f = DATA.meta.feedback;
+    if (!f || !f.url || !f.from) return null;
+    var now = new Date();
+    if (now < new Date(f.from)) return null;
+    if (f.until && now > new Date(f.until)) return null;
+    return f;
+  }
+
+  function renderFeedback() {
+    var b = $('#feedback');
+    var f = feedbackOpen();
+    var dismissed = false;
+    try { dismissed = localStorage.getItem(FBSTORE) === f_stamp(f); } catch (e) {}
+    if (!f || dismissed) { b.hidden = true; b.innerHTML = ''; return; }
+    b.hidden = false;
+    b.innerHTML = '';
+    var body = el('div', 'fb-body');
+    body.appendChild(el('h2', null, f.title || 'Feedback'));
+    if (f.text) body.appendChild(el('p', null, f.text));
+    var a = el('a', 'fb-cta', f.cta || 'Open the feedback form');
+    a.href = f.url;
+    a.target = '_blank';
+    a.rel = 'noopener';
+    body.appendChild(a);
+    b.appendChild(body);
+    var x = el('button', 'fb-x', '✕');
+    x.type = 'button';
+    x.setAttribute('aria-label', 'Hide the feedback reminder');
+    x.addEventListener('click', function () {
+      try { localStorage.setItem(FBSTORE, f_stamp(f)); } catch (e) {}
+      renderFeedback();
+      toast('Hidden — the form is still in the Info tab.');
+    });
+    b.appendChild(x);
+  }
+
+  // Keyed on the window, so reopening the form later shows the banner again.
+  function f_stamp(f) { return f ? (f.from + '|' + f.url) : ''; }
+
   function renderBanner() {
     var b = $('#banner');
     var now = new Date();
@@ -656,6 +709,7 @@
     renderDayBar();
     renderFilters();
     renderBanner();
+    renderFeedback();
     var root = $('#view');
     root.innerHTML = '';
     if (state.view === 'program') viewProgram(root);

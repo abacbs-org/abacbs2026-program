@@ -260,3 +260,16 @@ mark{background:color-mix(in srgb, var(--blue) 28%, transparent);color:inherit;b
 .notes li::before{content:"";position:absolute;left:3px;top:8px;width:5px;height:5px;border-radius:50%;background:var(--blue)}
 .notes li strong{font-weight:600}
 .people-h{margin:10px 0 2px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
+
+/* Feedback call-out — appears from meta.feedback.from until meta.feedback.until */
+.fb-banner{display:flex;gap:12px;align-items:flex-start;margin:0 0 12px;padding:14px 16px;
+  border:1px solid var(--red);border-left-width:4px;border-radius:10px;background:var(--paper-2)}
+.fb-banner .fb-body{flex:1;min-width:0}
+.fb-banner h2{margin:0 0 4px;font-size:15px}
+.fb-banner p{margin:0 0 10px;font-size:14px;line-height:1.45;color:var(--ink-2)}
+.fb-banner .fb-cta{display:inline-block;padding:8px 14px;border-radius:8px;background:var(--red);
+  color:var(--paper);font-size:14px;font-weight:600;text-decoration:none}
+.fb-banner .fb-cta:hover{filter:brightness(1.08)}
+.fb-banner .fb-x{flex:none;border:0;background:none;cursor:pointer;font-size:16px;line-height:1;
+  padding:2px 4px;color:var(--ink-2)}
+.fb-banner .fb-x:hover{color:var(--ink)}
