@@ -1777,6 +1777,7 @@
    "day": "2026-11-19",
    "start": "18:00",
    "end": "21:00",
+   "openEnded": true,
    "type": "social",
    "title": "BiocAsia meetup",
    "stream": "Social",

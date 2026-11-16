@@ -57,7 +57,7 @@
         ITEMS.push({
           id: ev.id, kind: ev.type, day: ev.day, start: ev.start, end: ev.end,
           title: ev.title, speaker: ev.speaker || '', affiliation: ev.affiliation || '',
-          room: ev.room, stream: ev.stream, parent: ev
+          room: ev.room, stream: ev.stream, openEnded: ev.openEnded, parent: ev
         });
       }
     });
@@ -171,7 +171,9 @@
     if (ev.speaker) bits.push('<span class="who">' + mark(ev.speaker) + '</span>' +
       (ev.affiliation ? ' <span class="dot">·</span> ' + mark(ev.affiliation) : ''));
     var line2 = [];
-    line2.push(ev.start + '–' + ev.end);
+    // `openEnded` events still carry an `end` so clash detection and the .ics
+    // export work, but no finish time is shown because none was announced.
+    line2.push(ev.openEnded ? 'From ' + ev.start : ev.start + '–' + ev.end);
     if (ev.room) line2.push(mark(ev.room));
     if (ev.chairs) {
       var many = /&|,| and /i.test(ev.chairs);
@@ -385,7 +387,8 @@
         var m = el('p', 'meta');
         m.innerHTML = (i.speaker ? '<span class="who">' + esc(i.speaker) + '</span>' +
           (i.affiliation ? ' <span class="dot">·</span> ' + esc(i.affiliation) : '') + '<br>' : '') +
-          i.start + '–' + i.end + (i.room ? ' <span class="dot">·</span> ' + esc(i.room) : '');
+          (i.openEnded ? 'From ' + i.start : i.start + '–' + i.end) +
+          (i.room ? ' <span class="dot">·</span> ' + esc(i.room) : '');
         main.appendChild(m);
         var cc = conflictsFor(i.id);
         if (cc.length) {
