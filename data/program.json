@@ -1773,6 +1773,17 @@
    "link": "https://www.abacbs.org/workshops-2026-call"
   },
   {
+   "id": "thu-biocasia-social",
+   "day": "2026-11-19",
+   "start": "18:00",
+   "end": "21:00",
+   "type": "social",
+   "title": "BiocAsia meetup",
+   "stream": "Social",
+   "room": "The Oxford Scholar, 427 Swanston St (cnr A'Beckett St)",
+   "desc": "Hosted by BiocAsia and open to all conference attendees — drop in from 6pm. A pub a few minutes' walk up Swanston St from Storey Hall."
+  },
+  {
    "id": "fri-workshops",
    "day": "2026-11-20",
    "start": "09:00",
