@@ -1564,7 +1564,7 @@
     },
     {
      "label": "Best COMBINE talk:",
-     "text": "Patrick Crock \u00b7 St Vincent's Institute; University of Melbourne \u2014 Segmentation-free identification of tissue domains in image-based spatial transcriptomics"
+     "text": "Patrick Crock · St Vincent's Institute; University of Melbourne — Segmentation-free identification of tissue domains in image-based spatial transcriptomics"
     }
    ]
   },
@@ -1769,8 +1769,17 @@
    "title": "ABACBS & BiocAsia workshops (afternoon)",
    "stream": "Workshop",
    "room": "RMIT City Campus",
-   "desc": "Workshop times are subject to change — check the workshops page for the final grid. Workshop attendance requires a conference registration; workshop fee is separate (Standard A$90).",
-   "link": "https://www.abacbs.org/workshops-2026-call"
+   "desc": "Workshop times are subject to change — check the workshops page for the final grid. BiocAsia 2026 is a satellite of ABACBS, running Thursday–Friday at RMIT City Campus. Workshop attendance requires a conference registration; the workshop fee is separate (A$90, or A$40 for students) and can be added to an existing registration.",
+   "links": [
+    {
+     "label": "Workshops page",
+     "url": "https://www.abacbs.org/workshops-2026-call"
+    },
+    {
+     "label": "BiocAsia registration",
+     "url": "https://biocasia2026.bioconductor.org/registration/"
+    }
+   ]
   },
   {
    "id": "thu-biocasia-social",
@@ -1793,8 +1802,17 @@
    "title": "ABACBS & BiocAsia workshops (full day)",
    "stream": "Workshop",
    "room": "RMIT City Campus",
-   "desc": "Workshop times are subject to change — check the workshops page for the final grid. Computational resources provided by the RMIT Advanced Computing Ecosystem (RACE), powered by AWS.",
-   "link": "https://www.abacbs.org/workshops-2026-call"
+   "desc": "BiocAsia 2026 is a satellite of ABACBS, running Thursday–Friday at RMIT City Campus. Workshop times are subject to change — check the workshops page for the final grid. Computational resources provided by the RMIT Advanced Computing Ecosystem (RACE), powered by AWS.",
+   "links": [
+    {
+     "label": "Workshops page",
+     "url": "https://www.abacbs.org/workshops-2026-call"
+    },
+    {
+     "label": "BiocAsia registration",
+     "url": "https://biocasia2026.bioconductor.org/registration/"
+    }
+   ]
   },
   {
    "id": "fri-sat-ai",

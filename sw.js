@@ -1,5 +1,5 @@
 /* ABACBS 2026 — offline cache */
-var VERSION = 'abacbs2026-v16';
+var VERSION = 'abacbs2026-v17';
 var ASSETS = [
   './', './index.html', './css/app.css', './js/app.js',
   './data/program.json', './manifest.webmanifest',
